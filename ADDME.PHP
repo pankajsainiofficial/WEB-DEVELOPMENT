@@ -1,3 +1,3 @@
 <?PHP
-echo " this is for testing purpose only"
+echo " this is for testing purpose only";
 ?>
