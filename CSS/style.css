@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    border: 5px solid red;
+    height: 10vh;
+    background: yellow;
+}
