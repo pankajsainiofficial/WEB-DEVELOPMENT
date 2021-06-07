@@ -1,3 +1,3 @@
 <?php
-    echo "this is only testing"
+    echo "this is only testing from parish"
 ?>
