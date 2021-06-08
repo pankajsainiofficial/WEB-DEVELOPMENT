@@ -7,7 +7,71 @@ body {
     padding: 0;
 }
 #header {
-    border: 5px solid red;
+    display: flex;
+    border: 1px solid rgb(139, 216, 162);
     height: 10vh;
-    background: yellow;
+    background: #232f3e;
+}
+.logo {
+    display: flex;
+}
+.logo img{
+    height: 61px;
+    width: 65px;
+    margin: 4px;
+}
+#submit {
+    height: 10px;
+    width: 10px;
+}
+.logo  {
+    border: 1px solid red;
+}
+.searchbar  {
+    border: 1px solid red;
+    display: flex;
+}
+#searchsubmit{
+
+}
+.login {
+    border: 1px solid red;
+}
+.signup {
+    border: 1px solid red;
+}
+
+/*----------------------- Navbar css-----------------------*/
+
+
+#navbar {
+    border: 1px solid blue;
+    display: flex;
+    height: 43px;
+    background: rgb(213 196 196);
+}
+.categories_list {
+    padding: 10px;
+    margin-left: 60px;
+    list-style: none;
+}
+#categories_list li, .sub-menu ul li {
+    list-style: none;
+    padding: 10px;
+}
+.sub-menu {
+    margin-top: 10px;
+}
+#nav_list {
+    position: relative;
+    left: 10%;
+    outline: none;
+}
+#nav_list ul {
+    display: flex;
+    
+}
+.nav-fix ul li {
+    list-style: none;
+    padding: 10px 40px 10px 40px;
 }
