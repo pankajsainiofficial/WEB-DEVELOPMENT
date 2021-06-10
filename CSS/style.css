@@ -10,68 +10,224 @@ body {
     display: flex;
     border: 1px solid rgb(139, 216, 162);
     height: 10vh;
-    background: #232f3e;
+    /* background: #232f3e; */
+    background: #2D2926FF;
+}
+#header h3 {
+    color: white;
 }
 .logo {
+    /* border: 1px solid red; */
     display: flex;
+    padding-right: 20px;
+    text-align: center;
+    align-items: baseline;
 }
 .logo img{
     height: 61px;
     width: 65px;
     margin: 4px;
+    margin-left: 35px;
+}
+.logo h3 {
+    white-space: nowrap;
+    position: relative;
+    bottom: 4px;
 }
 #submit {
-    height: 10px;
-    width: 10px;
-}
-.logo  {
-    border: 1px solid red;
+    height: 45px;
+    width: 50px;
 }
 .searchbar  {
-    border: 1px solid red;
+    position: relative;
+    align-items: center;
+    width: 65%;
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: center;
 }
-#searchsubmit{
-
+.category select {
+    padding: 9px;
+    width: 137px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ #searchsubmit{
+    width: 100%;
+}
+.search{
+    font-size: 20px;
+    width: 75%;
+    padding: 8.6px;
+    margin: 2px;
+    outline: none;
 }
 .login {
-    border: 1px solid red;
+     width: 100px;
+    text-align: center;
+}
+.login h3 {
+    position: relative;
+    top: 25px;
+    padding-top: 14px; 
 }
 .signup {
-    border: 1px solid red;
+    margin-left: 10px;
+    width: 100px;
+    text-align: center; 
 }
+.signup h3 {
+    position: relative;
+    top: 25px;
+    padding-top: 14px;
+}
+.far {
+    font-size: 25px;
+    padding-top: 25px;
+    margin-left: 11px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    color: #FFFDD0;
+}
+.fas{
+    font-size: 25px;
+}
+
+
 
 /*----------------------- Navbar css-----------------------*/
 
 
+
+
+#categories {
+    width: 15%;
+}
 #navbar {
     border: 1px solid blue;
     display: flex;
     height: 43px;
-    background: rgb(213 196 196);
+    /* background: rgb(213 196 196); */
+    background: #FFFDD0;;
 }
 .categories_list {
     padding: 10px;
     margin-left: 60px;
     list-style: none;
+    cursor: pointer;
+}
+.sub-menu {
+    display: none;
+}
+.categories_list:hover .sub-menu{
+    display: block;
+    margin-top: 20px;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
+    width: 300px;
 }
 #categories_list li, .sub-menu ul li {
     list-style: none;
     padding: 10px;
+    border: 0.6px solid rgb(0 0 0 / 8%);
 }
-.sub-menu {
-    margin-top: 10px;
+.sub-menu ul {
+    align-items: center;
+    text-align: center;
 }
+
 #nav_list {
     position: relative;
     left: 10%;
     outline: none;
 }
 #nav_list ul {
-    display: flex;
-    
+    display: flex; 
 }
 .nav-fix ul li {
     list-style: none;
     padding: 10px 40px 10px 40px;
 }
+.nav-fix li {
+    font-size: 14px;
+}
+
+/* ----------------------------------Carousel--------------------------
+ */
+ #container {
+     margin: 10px 30px 10px 30px;
+ }
+ #Carousel {
+     display: flex;
+     height: 590px;
+     border: 1px solid violet;
+     margin-bottom: 5px;
+ }
+ .wrapper{
+    margin: 30px 0px 0px 30px;
+    display: flex;
+    height: 90%;
+    width: 90%;
+    background: rgb(22, 19, 19);
+ }
+ .item-info{
+     text-align: center;
+     position: relative;
+     color: white;
+     font-size: 25px;
+ }
+ .item-info-fix{
+     width: 50%;
+ }
+ .contain > img{
+    margin: 30px 15px 0px 25px;
+    position: relative;
+    height: 90%;
+    width: 87%;
+    
+ }
+ .contain{
+     width: 40%;
+ }
+
+ .slider{
+     position: absolute;
+     height: 65%;
+     width: 55%;
+ }
+.slider > img {
+    box-sizing: border-box;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 30%;
+}
+
+
+ /* ------------------------------top-category------------------- */
+.heading {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+#top-category-heading
+{
+    border: 1px solid red;
+}
+#top-category{
+    width: 90vw;
+    border: 1px solid blue;
+    margin: auto;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+}
+.product{
+    border: 1px solid red;
+}
+.iconfix{
+    font-size: 80px !important ;
+}
+
