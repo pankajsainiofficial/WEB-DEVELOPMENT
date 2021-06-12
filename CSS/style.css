@@ -119,9 +119,11 @@ body {
 }
 .sub-menu {
     display: none;
+    
 }
 .categories_list:hover .sub-menu{
     display: block;
+    background-color: #fff;
     margin-top: 20px;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
     width: 300px;
@@ -162,13 +164,14 @@ body {
      height: 590px;
      border: 1px solid violet;
      margin-bottom: 5px;
- }
- .wrapper {
-    margin: 30px 0px 0px 30px;
-    display: flex;
-    height: 90%;
-    width: 90%;
-    background: rgb(22, 19, 19);
+    }
+.wrapper {
+        margin: 30px 0px 0px 30px;
+        display: flex;
+        height: 90%;
+        width: 90%;
+        z-index: -1;
+        background-color: rgb(22, 19, 19);
  }
  .item-info{
      text-align: center;
@@ -176,58 +179,158 @@ body {
      color: white;
      font-size: 25px;
  }
- .item-info-fix{
+ /* .item-info-fix{
      width: 50%;
- }
- .contain > img{
+ } */
+ .compare-section {
     margin: 30px 15px 0px 25px;
     position: relative;
     height: 90%;
     width: 87%;
     
  }
+ .images {
+     width: 70%;
+ }
  .contain{
      width: 40%;
  }
 
  .slider{
-     position: absolute;
-     height: 65%;
-     width: 55%;
+    position: absolute;
+    height: 531px;
+    width: 694px;
  }
-.slider > img {
+.slider img {
     box-sizing: border-box;
-    height: 50%;
-    width: 50%;
-    position: relative;
-    top: 30%;
+    height: 100%;
+    width: 100%;
 }
+.compare-section {
+    text-align: center;
+    border: 1px solid grey;
+    /* background: rgb(207, 204, 201); */
+    background: #2D2926FF;
+    
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
+}
+.main-compare select,.product-list input,.compare-section h2 {
+    width: 80%;
+    width: -webkit-fill-available;
+    padding: 19px;
+    margin: 20px;
+    outline: none;
+}
+.compare-section h2 {
+    font-family: cursive;
+    color: #FFFDD0;
+    font-weight: bolder;
+    border: 3px solid #FFFDD0;
 
-
+}
+.compare-head {
+    background-color: #fff;
+    margin: 20px;
+    
+}
+.compare-head button {
+    width: 50%;
+    margin: 20PX;
+    padding: 10px;
+    /* background-color: rgb(112, 71, 209); */
+    outline: none;
+    border-radius: 10px;
+}
+.compare-head button:hover {
+    background-color: burlywood;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 12%);
+    position: relative;
+    bottom: 1.5px;
+}
  /* ------------------------------top-category------------------- */
 .heading {
     text-align: center;
     margin-top: 15px;
     padding: 10px;
 }
-
-
-#top-category-heading
-{
-    border: 1px solid red;
+.heading h2{
+    font-family: 'Roboto Slab', serif;
 }
 #top-category{
-    width: 90vw;
-    border: 1px solid blue;
-    margin: auto;
-    height: 150px;
+    width: 92vw;
+    margin: 15px auto 15px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
 }
 .product{
-    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
-.iconfix{
-    font-size: 80px !important ;
+.product:hover {
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
 }
 
+.product h3{
+    font-size: medium;
+    font-weight: 600;
+    color: #888888;
+    line-height: 15px;
+}
+.product:hover .color-fix{
+    color: #f29202;
+}
+
+.iconfix{
+    font-size: 60px !important ;
+    margin-bottom: 10px;
+}
+.fa-game-console-handheld{
+    color: black;
+}
+
+/* --------------------------Arrivals----------------*/
+#arrivals{
+    border: 1px solid red;
+}
+.mega-discount {
+    background: url("/images/oneplus.jpg");
+    background-size: 100% 100%;
+}
+.weekend-sale {
+  background: url("/images/laptop.jpg");
+  background-size: 100% 100%;
+}
+.new-arrivals {
+  background: url("/images/gadgets.jpg");
+  background-size:100% 100%;
+}
+.arrivals-new{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
+}
+.discount {
+    border: 1px solid blue;
+    margin: 20px;
+    height: 380px;
+}
+.mega-discount h2 {
+    position: relative;
+    color: orange;
+    font-family: cursive;
+    top: -3px;
+    left: 3px;
+}
+.weekend-sale h2{
+    top: 9px;
+    left: 130px;
+    position: relative; 
+    font-family: cursive;
+    color: whitesmoke;
+}
+.new-arrivals h2{
+    position: relative;
+    top: 9px;
+    left: 22px;
+    font-family: cursive;
+}
