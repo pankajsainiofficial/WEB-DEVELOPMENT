@@ -98,6 +98,18 @@
                             <p>Ipad pro max comes with thullu specification <br> and bekar price</p>
                         </div>
                     </div>
+                    <div class="horizontal">
+                        <ul>
+                            <li><a href="http://www.google.com"><span class="arrow"></span>Leading Smartphones</a> </li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Computers</a></li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Laptops</a></li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Gadgets</a></li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Electronics</a></li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Cameras</a></li>
+                            <li><a href="http://www.google.com"><a href="http://www.google.com"><span
+                                            class="arrow"></span> Leading Appliances</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="contain">
                     <div class="compare-section">
@@ -203,6 +215,57 @@
                     </div>
                 </div>
             </div>
+            <!-- -------------------------------------popular-mobie------------------------------------>
+            <div id="popular-mobiles-main">
+                <div class="popular-mobiles-sub">
+                    <h2>Popular Mobiles Of This Month</h2>
+                </div>
+                <div id="popular-mobiles-content">
+                    <ul class="row-content">
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/m-42-5g.png" alt="ok">
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/Mi-11x-5g.png" alt="ok">
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/redmi-note-10s.jpg" alt="ok">
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/oppo-a74-5g.jpg" alt="ok">
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/redmi-9power.png" alt="ok">
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img">
+                                <img src="/images/samsun-f12.jpg" alt="ok">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+            </div>
 
 
 
@@ -216,6 +279,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
         </div>
     </div>
 </body>
