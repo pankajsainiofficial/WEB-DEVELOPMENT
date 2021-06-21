@@ -9,7 +9,7 @@ body {
 #header {
     display: flex;
     border: 1px solid rgb(139, 216, 162);
-    height: 80px;
+    height: 68px;
     /* background: #232f3e; */
     background: #2D2926FF;
 }
@@ -37,7 +37,7 @@ body {
     bottom: 4px;
 }
 #submit {
-    height: 45px;
+    height: 39px;
     width: 50px;
 }
 .searchbar  {
@@ -51,14 +51,14 @@ body {
 .category select {
     padding: 9px;
     width: 137px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
  #searchsubmit{
     width: 100%;
 }
 .search{
-    font-size: 20px;
+    font-size: 15px;
     width: 75%;
     padding: 8.6px;
     margin: 2px;
@@ -71,8 +71,8 @@ body {
 .login h3 {
     border: 1px solid grey;
     position: relative;
-    top: 25px;
-    padding: 10px; 
+    top: 21px;
+    padding: 7px; 
 }
 .login h3:hover {
     background-color: honeydew;
@@ -87,8 +87,8 @@ body {
 .signup h3 {
     position: relative;
     border: 1px solid grey;
-    top: 25px;
-    padding: 10px;
+    top: 21px;
+    padding: 7px;
 }
 .signup h3:hover {
     background-color: honeydew;
@@ -107,7 +107,7 @@ body {
     cursor: pointer;
 }
 .fas{
-    font-size: 25px;
+    font-size: 15px;
 }
 .fa-plus {
     font-size: 15px;
@@ -125,9 +125,9 @@ body {
     width: 15%;
 }
 #navbar {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
-    height: 43px;
+    height: 35px;
     /* background: rgb(213 196 196); */
     background: #FFFDD0;;
 }

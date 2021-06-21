@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is another affiliate website</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <script src="/JS/index.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -51,6 +52,7 @@
                 <i class="far fa-bell"></i>
             </div>
         </div>
+    
         <!-- -----------------------------------Navbar----------------------------------- -->
         <div id="navbar">
             <div id="categories">
@@ -81,7 +83,7 @@
                 </ul>
             </div>
         </div>
-
+        <hr>
         <!-- -----------------------------Carousel------------------------------------ -->
         <div id="container">
             <div id="Carousel">
@@ -516,16 +518,16 @@
             </div>
  <!-- --------------------------------popular-electronics------------------------------------------            -->
 
-            <div id="popular-laptop-main">
+            <div id="popular-electronic-main">
                 <div class="popular-mobiles-sub">
-                    <h2>Popular Laptops Of This Month</h2>
+                    <h2>Popular Electronics Of This Month</h2>
                     <span>See More</span>
                 </div>
-                <div id="popular-mobiles-content">
+                <div id="popular-electronic-content">
                     <ul class="row-content">
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/washing.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -547,7 +549,7 @@
 
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/washing.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -569,7 +571,7 @@
 
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/samsung.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -590,7 +592,7 @@
 
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/samsung.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -611,7 +613,7 @@
 
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/fridge.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -632,7 +634,150 @@
 
                         <li class="p-mob">
                             <div class="mobile-img laptop-img">
-                                <img src="/images/lenovo.jpeg" alt="ok">
+                                <img src="/images/fridge.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> samsung-f12</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+ <!-- --------------------------------------accessories------------------------------- -->
+
+
+ <div id="popular-accessories-main">
+                <div class="popular-mobiles-sub">
+                    <h2>Popular Accessories Of This Month</h2>
+                    <span>See More</span>
+                </div>
+                <div id="popular-accessories-content">
+                    <ul class="row-content">
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> M-42-5g</a></span>
+                                <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> Mi-11x-5g</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> redmi-note-10s</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#">oppo-a74-5g</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#">redmi-9power</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="p-mob">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
                             </div>
                             <div class="electronic-detail">
                                 <span class="pro_name">
@@ -678,14 +823,11 @@
 
 
 
-
-
-
-
-
-
             
         </div>
+        <?php
+            require "footer.php";
+        ?>
     </div>
 </body>
 

@@ -1,0 +1,58 @@
+#footer {
+    border: 1px solid red;
+    content: 'thullu';
+    /* height: 400px; */
+}
+#footer-main {
+    display: flex;
+    justify-content: center;
+}
+#footer-main h3 {
+    padding: 10px 0px 15px 0px;
+}
+.com-details {
+    display: flex;
+}
+.footer-fix {
+    border: 1px solid red;
+    width: 450px;
+    margin: 15px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+#address {
+    text-align: center;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+#copyright {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background: rgb(183, 116, 216);
+}
+#copyright > .copyright-box {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 20px; */
+}
+#copyright > .copyright-box h6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0px 50px 0px 50px;
+    font-family: cursive;
+}
