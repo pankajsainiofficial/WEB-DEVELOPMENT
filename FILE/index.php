@@ -18,8 +18,8 @@
     <div id="homepage">
         <div id="header">
             <div class="logo">
-                <img src="/images/logo.png" alt="ok">
-                <h3>Lorem ipsum.</h3>
+                <img src="/photos/weblogo.png" alt="ok">
+                <h3>Price Pair</h3>
             </div>
             <div class="searchbar">
                 <div class="category">
@@ -58,6 +58,7 @@
             <div id="categories">
                 <ul class="categories_list nav-fix">
                     <li>Shop By Categories
+                    <i class="fas fa-caret-down"></i>
                         <div class="sub-menu">
                             <ul>
                                 <li>laptop</li>

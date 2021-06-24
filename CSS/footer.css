@@ -1,14 +1,19 @@
 #footer {
     border: 1px solid red;
-    content: 'thullu';
-    /* height: 400px; */
+
 }
 #footer-main {
+    color: white;
     display: flex;
     justify-content: center;
+     /* background: linear-gradient(180deg,#333333 , #625772,GREY); */
+     background: linear-gradient(180deg,#505160 , #68829E);
 }
 #footer-main h3 {
-    padding: 10px 0px 15px 0px;
+    padding: 5px 0px 15px 0px;
+    color: wheat;
+    font-size: 18   px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .com-details {
     display: flex;
@@ -19,15 +24,59 @@
     margin: 15px;
     padding: 20px;
 }
-
-
-
-
+.subscribe input{
+    width: 17em;
+    border-radius: 9px;
+    line-height: 9px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+}
+.subscribe button {
+    border-radius: 9px;
+    border-left: hidden;
+    position: absolute;
+    line-height: 16px;
+    border-top-left-radius: 0px;
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    background-color: burlywood;
+}
+.navigate ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+}
+.navigate {
+    padding-left: 50px;
+}
+.navigate ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-logo {
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-logo img {
+    height: 80px;
+    width: 80px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+}
 
 
 
 
 #address {
+    background-color: cadetblue;
     text-align: center;
     height: 35px;
     display: flex;
