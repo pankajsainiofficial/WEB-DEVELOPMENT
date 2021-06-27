@@ -57,11 +57,11 @@
             </div>
             <div id="nav_list" class="nav-fix">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li>Shop</li>
                     <li>Top Deals</li>
-                    <li>Contact Us</li>
+                    <li><a href="contact.php">Contact Us</a></li>
                     <li>Faq</li>
                 </ul>
             </div>

@@ -1,0 +1,12 @@
+#contact{
+border: 1px solid blue;
+height: 100px;
+line-height: 2;
+
+}
+#contactus{
+    height: 69vh;
+    margin-top: 15m;
+    width: 100%;
+    border: 2px solid red;
+}

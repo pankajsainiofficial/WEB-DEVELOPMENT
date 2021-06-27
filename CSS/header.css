@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
 #header {
     display: flex;
     border: 1px solid rgb(139, 216, 162);
@@ -181,6 +190,10 @@
 }
 #nav_list ul {
     display: flex; ;
+}
+#nav_list ul li a {
+    text-decoration: none;
+    color: #000000
 }
 #nav_list > ul >li {
     padding: 0px !important;

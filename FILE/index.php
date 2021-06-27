@@ -46,10 +46,6 @@
                         <div class="slider">
                             <img src="/photos/appliances1.jpg" alt="This is first Carousel image ">
                         </div>
-                        <!-- <div class="item-info item-info-fix">
-                            <h1>ipad Pro</h1>
-                            <p>Ipad pro max comes with thullu specification <br> and bekar price</p>
-                        </div> -->
                     </div>
                     <div class="horizontal">
                         <ul>
@@ -733,33 +729,7 @@
                         </li>
                     </ul>
                 </div>
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+            </div>            
         </div>
         <?php
             require "footer.php";
