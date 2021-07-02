@@ -1,6 +1,6 @@
+
 #about_container {
     height: 100%;
-    /* margin: 0px 30px 5px 30px; */
     border: 1px solid red;
 }
 .about_head {
@@ -41,10 +41,12 @@
 /* --------------------Who we Are ------------------ */
 #our_info {
     width: auto;
+    border: 1px dotted brown;
+    padding: 0px 30px 0px 30px;
 }
-.abt_container {    
+/* .abt_container {    
     margin: 10px 30px 10px 30px;
-}
+} */
 .info_wrapper {
     position: relative;
     height: 100%;
@@ -57,6 +59,16 @@
     width: 55%;
     padding: 40px;
     line-height: 27px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.abt_wrapper h2 {
+    margin: 15px 0px 10px 0px;
+}
+.abt_wrapper p {
+    margin-bottom: 40px;
+}
+.abt_wrapper hr {
+    margin-bottom: 40px;
 }
 .abt_img {
     width: 50%;
@@ -64,7 +76,78 @@
     border: 1px solid blue;
 }
 .info_wrapper img {
+    border-radius: 15px;
     height: 392px;
     width: 100%;
     box-shadow: 0px 0px 15px 0px rgb(0 0 0/12);
+}
+
+
+
+/* -------------------------MEET OUR TEAM--------------------------- */
+
+.product-fix{
+    border: 1px solid blue;
+    padding: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.h1-fix {
+    display: block;
+    text-align: center;
+    margin: 10px auto 25px auto;
+}
+.team-detail{
+    margin: 30px 0px 20px 0px;
+}
+.main-team-details ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.main-team-details ul li {
+    list-style: none;
+    text-align: center;
+    line-height: 35px;
+}
+.main-team-details > ul > li{
+    margin: 10px;
+    border: 1px solid red;
+    padding: 20px;
+}
+.main-team-details > ul > li span {
+    text-align: center;
+}
+.main-team-details > ul > li img {
+    height: 100px;
+    width: 100px;
+}
+.main-team-details section > ol > li{
+    display: inline-flex;
+    line-height: 27px;
+}
+.main-team-details section > ol > li > h5 {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+
+
+/* ------------------------Our-Partners----------------------- */
+.main-partners {
+    margin-top: 30px;
+}
+.main-partners li{
+    height: 150px;
+    width: 150px;
+    list-style: none;
+    border: 1px solid red;
+    margin: 10px auto 10px auto;
+}
+.main-partners li img {
+    height: 100%;
+    width: 100%;
+}
+.main-partners ul {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

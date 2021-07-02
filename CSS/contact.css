@@ -1,12 +1,75 @@
-#contact{
+.contact{
 border: 1px solid blue;
 height: 100px;
 line-height: 2;
+}
+#contact h2{
+    font-size: 41px;
+    margin: 10px;
+    padding-left: 65px;
 
 }
 #contactus{
-    height: 69vh;
+    /* height: 528px; */
     margin-top: 15m;
     width: 100%;
-    border: 2px solid red;
+    border: px solid red;
 }
+.map-img{
+    background-image: url("/photos/mobback.png");
+     height:528px;
+     width:100%;
+     z-index: -1;
+}
+#mainform{
+    height: 400px;
+}
+.inputform{
+    border: 1px solid blue;
+    display: flex;
+    width: 90%;
+    position: relative;
+    top: -90%;
+    margin: 0px auto 0px auto;
+    background: whitesmoke;
+}
+.productform{
+ width: 70%;
+}
+.formhgt{
+    border: 1px solid red;
+    /* height: 100%; */
+    padding: 50px;
+}
+.productform h2{
+   font-size: 40px;
+   margin-bottom: 30px;
+}
+.contact-address{
+      border: 1px solid red;;
+      /* height: 5em; */
+      width: 30%;
+}
+.contactform{
+    display: table;
+}
+.contactform input{
+    padding: 15px;
+    width: 90%;
+    margin-top: 10px;
+}
+.contactform label{
+    display: inline-flex;
+    flex-direction: column;
+    width: 47%;
+    margin: 10px;
+}
+#descarea{
+    margin-top: 10px;
+    width: 51vw;
+    max-width: 51vw;
+    height: 201px;
+}
+
+
+

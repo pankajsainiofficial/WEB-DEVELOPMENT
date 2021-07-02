@@ -33,24 +33,175 @@
             <div class="abt_container">
                 <div class="info_wrapper">
                     <div class="abt_wrapper">
-                        <h2>Who We Are</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur totam vel exercitationem
-                            debitis amet doloribus incidunt molestias at aliquid dolorem natus rem soluta, delectus ipsa et.
-                            Nisi, esse. Necessitatibus labore fugit aliquam!</p>
+                        <section>
+                            <h2>Who We Are</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur totam vel
+                                exercitationem
+                                debitis amet doloribus incidunt molestias at aliquid dolorem natus rem soluta, delectus
+                                ipsa et.
+                                Nisi, esse. Necessitatibus labore fugit aliquam!</p>
+                        </section>
+                        <hr>
+                        <section>
+                            <h2>What We Do</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur totam vel
+                                exercitationem
+                                debitis amet doloribus incidunt molestias at aliquid dolorem natus rem soluta, delectus
+                                ipsa et.
+                                Nisi, esse. Necessitatibus labore fugit aliquam!</p>
+                        </section>
                     </div>
                     <div class="abt_img">
                         <img src="/photos/speaker.webp">
                     </div>
                 </div>
-
-
             </div>
-        </div>
+            <!-- -----------------------------OUR-TEAM--------------------------  -->
+            <div id="product_team" class="product-fix">
+            <span class="h1-fix">
+                    <h1>Meet Our Team</h1>
+                </span>
+                <div class="team-detail">
+                    <div class="main-team-details">
+                        <ul>
+                            <li>
+                                <span>
+                                    <img src="/photos/weblogo.png">
+                                </span>
+                                <section>
+                                    <h3>Parish Jain</h3>
+                                    <ol>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                    </ol>
+                                </section>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="/photos/weblogo.png">
+                                </span>
+                                <section>
+                                    <h3>Pankaj Saini</h3>
+                                    <ol>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                    </ol>
+                                </section>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="/photos/weblogo.png">
+                                </span>
+                                <section>
+                                    <h3>Parish Jain</h3>
+                                    <ol>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                    </ol>
+                                </section>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="/photos/weblogo.png">
+                                </span>
+                                <section>
+                                    <h3>Pankaj Saini</h3>
+                                    <ol>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                        <li>
+                                            <h5>Role :-</h5> Managing Director
+                                        </li>
+                                    </ol>
+                                </section>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------Our-Partners----------------------------- -->
+            <div id="partners" class="product-fix">
+                <span class="h1-fix">
+                    <h1>Our TrustWorthy Partners</h1>
+                </span>
+                <div class="main-partners">
+                    <ul>
+                        <li>
+                            <img src="/photos/partners/bmw.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/audi.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/harley.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/jaguar.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/nissan.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/mooi.jpg">
+                        </li>
+                        <li>
+                            <img src="/photos/partners/san.jpg">
+                        </li>
+                    </ul>
 
+
+
+                </div>
+            </div>
+        </div><!-- this is our-info's Div ,giving padding to whole page -->
     </div>
     <?php
         require "footer.php";
     ?>
+
+
+
+
+
+
+
 </body>
 
 </html>
