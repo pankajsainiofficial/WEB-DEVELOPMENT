@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     min-width: 100%;
+    /* text-transform: capitalize; */
 }
 #header {
     display: flex;
@@ -136,21 +137,27 @@ body {
 }
 .categories_list {
     padding: 10px;
+    height: -webkit-fill-available;
     margin-left: 60px;
     list-style: none;
     cursor: pointer;
 }
 .sub-menu {
-    display: none;  
+    /* display: none;   */
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 80px;
 }
 .categories_list:hover .sub-menu{
-    display: block;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
+    /* display: block; */
+    visibility: visible;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
     background-color: #fff;
     position: relative;
     padding: 1px;
-    margin-top: 20px;
+    margin-top: 14px;
+    opacity: 1;
     z-index: 9999;
     box-shadow: 0 0 35px 0 rgb(0 0 0 / 40%);
     width: 250px; 
@@ -163,6 +170,8 @@ body {
 }
 .categories_list:hover .sub-menu ul:after{
     position: absolute;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
     left: 15%;
     top: -9px;
     width: 0;
@@ -189,16 +198,27 @@ body {
     outline: none;
 }
 #nav_list ul {
-    display: flex; ;
+    display: flex;
+    height: -webkit-fill-available;
 }
-#nav_list ul li a {
+#nav_list> ul> li> a {
     text-decoration: none;
-    color: #000000
+    color: #000000;
+    cursor: pointer;
+}
+#nav_list> ul> li:hover {
+    background-color: skyblue;
 }
 #nav_list > ul >li {
-    padding: 0px !important;
-    cursor: pointer;
-    margin: 10px 40px 10px 40px;
+        margin: 0px 10px;
+        padding: 0px !important;
+        white-space: nowrap;
+        width: 90px;
+        text-align: center;
+}
+#nav_list > ul >li:target {
+    background: royalblue;
+    color: yellow;
 }
 .nav-fix ul li {
     list-style: none;
@@ -210,4 +230,6 @@ body {
 }
 .nav-fix li {
     font-size: 16px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }

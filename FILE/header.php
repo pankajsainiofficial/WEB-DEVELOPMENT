@@ -59,10 +59,10 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li>Shop</li>
-                    <li>Top Deals</li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="shop.php">Top Deals</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                    <li>Faq</li>
+                    <li><a href="shop.php">Faq</a></li>
                 </ul>
             </div>
         </div>

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <script src="/js/about.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>THIS is About US page</title>
 </head>
-
-<body>
+<!-- onload="show()" -->
+<body >
     <?php
         require "header.php";
     ?>
@@ -162,30 +163,38 @@
                     <h1>Our TrustWorthy Partners</h1>
                 </span>
                 <div class="main-partners">
+                    <div id="leftbutton">
+                        <button onclick="moveleft()">&lt;</button>
+                    </div>
                     <ul>
-                        <li>
+                        <li id="img1" class="items">
                             <img src="/photos/partners/bmw.jpg">
                         </li>
-                        <li>
+                        <li id="img2" class="items">
                             <img src="/photos/partners/audi.jpg">
                         </li>
-                        <li>
+                        <li id="img3" class="items">
                             <img src="/photos/partners/harley.jpg">
                         </li>
-                        <li>
+                        <li id="img4" class="items">
                             <img src="/photos/partners/jaguar.jpg">
                         </li>
-                        <li>
+                        <li id="img5" class="items">
                             <img src="/photos/partners/nissan.jpg">
                         </li>
-                        <li>
+                        <li id="img6" class="items">
                             <img src="/photos/partners/mooi.jpg">
                         </li>
-                        <li>
+                        <li id="img7" class="items">
+                            <img src="/photos/partners/san.jpg">
+                        </li>
+                        <li id="img8" class="items">
                             <img src="/photos/partners/san.jpg">
                         </li>
                     </ul>
-
+                    <div id="rightbutton">
+                        <button onclick="moveright()">&gt;</button>
+                    </div>
 
 
                 </div>

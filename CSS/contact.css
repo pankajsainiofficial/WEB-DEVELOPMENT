@@ -10,26 +10,26 @@ line-height: 2;
 
 }
 #contactus{
-    /* height: 528px; */
-    margin-top: 15m;
     width: 100%;
-    border: px solid red;
+    border: 1px solid red;
 }
 .map-img{
     background-image: url("/photos/mobback.png");
      height:528px;
      width:100%;
      z-index: -1;
+     opacity: 0.8;
 }
 #mainform{
-    height: 400px;
+    /* height: 400px; */
+    padding-bottom: 100px;
 }
 .inputform{
     border: 1px solid blue;
     display: flex;
     width: 90%;
     position: relative;
-    top: -90%;
+    top: -300px;
     margin: 0px auto 0px auto;
     background: whitesmoke;
 }
@@ -69,6 +69,7 @@ line-height: 2;
     width: 51vw;
     max-width: 51vw;
     height: 201px;
+    max-height: 201px;
 }
 
 
