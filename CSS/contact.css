@@ -3,6 +3,12 @@ border: 1px solid blue;
 height: 100px;
 line-height: 2;
 }
+.contact h2{
+    font-family: auto;
+    font-size: 35px;
+    padding-left: 76px;
+    padding-top: 15px;
+}
 #contact h2{
     font-size: 41px;
     margin: 10px;
@@ -11,6 +17,7 @@ line-height: 2;
 }
 #contactus{
     width: 100%;
+    height: 100%;
     border: 1px solid red;
 }
 .map-img{
@@ -21,8 +28,7 @@ line-height: 2;
      opacity: 0.8;
 }
 #mainform{
-    /* height: 400px; */
-    padding-bottom: 100px;
+    margin-bottom: -100px;
 }
 .inputform{
     border: 1px solid blue;
@@ -49,6 +55,7 @@ line-height: 2;
       border: 1px solid red;;
       /* height: 5em; */
       width: 30%;
+      background-color: #232f3f;
 }
 .contactform{
     display: table;
@@ -58,6 +65,11 @@ line-height: 2;
     width: 90%;
     margin-top: 10px;
 }
+.contactform input::-webkit-inner-spin-button, .contactform input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .contactform label{
     display: inline-flex;
     flex-direction: column;
@@ -71,6 +83,53 @@ line-height: 2;
     height: 201px;
     max-height: 201px;
 }
-
-
-
+.email {
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 352px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.headquartor{ 
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 352px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.phoneno {
+    /* border: 1px solid blue; */
+    height: 150px;
+    width: 352px;
+    padding: 10px;
+}
+.contact-logo {
+    color: white;
+    font-size: 46px !important;
+}
+.cad h3{
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.cad h2{
+    font-size: 17px;
+    font-family: cursive;
+    padding-top: 8px;
+    color: white;
+}
+.productform button{
+margin-left: 8px;
+padding: 9px 18px 9px 18px;
+background-color: orange;
+color: white;
+font-weight: 800;
+cursor: pointer;
+}
+.productform button:hover{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+}

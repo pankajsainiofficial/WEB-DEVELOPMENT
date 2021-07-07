@@ -83,6 +83,9 @@ body {
     border: 1px solid grey;
     padding: 7px; 
 }
+.login a, .signup a {
+    text-decoration: none;
+}
 .login h3:hover {
     background-color: honeydew;
     color: #D4AF37 !important;  

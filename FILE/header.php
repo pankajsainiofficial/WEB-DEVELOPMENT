@@ -25,10 +25,10 @@
                 </button>
             </div>
             <div class="login">
-                <h3>LOGIN</h3>
+                <a href="login.php"><h3>LOGIN</h3></a>
             </div>
             <div class="signup">
-                <h3>SIGNUP</h3>
+                <a href="#"><h3>SIGNUP</h3></a>
             </div>
             <div id="notification">
                 <i class="far fa-bell"></i>

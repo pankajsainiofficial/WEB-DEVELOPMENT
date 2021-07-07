@@ -174,11 +174,13 @@
             <div id="popular-mobiles-main">
                 <div class="popular-mobiles-sub">
                     <h2>Popular Mobiles Of This Month</h2>
+                    <button onclick="moveleft()">&lt;</button>
+                    <button onclick="moveright()">&gt;</button>
                     <span>See More</span>
                 </div>
                 <div id="popular-mobiles-content">
                     <ul class="row-content">
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -200,7 +202,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -222,7 +224,7 @@
                         
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -243,7 +245,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -264,7 +266,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -285,7 +287,27 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob mobile-scroll">
+                            <div class="mobile-img">
+                                <img src="/images/mobile5.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> samsung-f12</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-mob mobile-scroll">
                             <div class="mobile-img">
                                 <img src="/images/mobile5.jpeg" alt="ok">
                             </div>
@@ -314,11 +336,13 @@
             <div id="popular-laptop-main">
                 <div class="popular-mobiles-sub">
                     <h2>Popular Laptops Of This Month</h2>
+                    <button onclick="lapleft()">&lt;</button>
+                    <button onclick="lapright()">&gt;</button>
                     <span>See More</span>
                 </div>
                 <div id="popular-mobiles-content">
                     <ul class="row-content">
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -340,7 +364,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -362,7 +386,7 @@
                         
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -383,7 +407,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -404,7 +428,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -425,7 +449,27 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob laptop-scroll">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/lenovo.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> samsung-f12</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-mob laptop-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/lenovo.jpeg" alt="ok">
                             </div>
@@ -453,11 +497,13 @@
             <div id="popular-electronic-main">
                 <div class="popular-mobiles-sub">
                     <h2>Popular Electronics Of This Month</h2>
+                    <button onclick="elecleft()">&lt;</button>
+                    <button onclick="elecright()">&gt;</button>
                     <span>See More</span>
                 </div>
                 <div id="popular-electronic-content">
                     <ul class="row-content">
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/washing.jpeg" alt="ok">
                             </div>
@@ -479,7 +525,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/washing.jpeg" alt="ok">
                             </div>
@@ -501,7 +547,7 @@
                         
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/samsung.jpeg" alt="ok">
                             </div>
@@ -522,7 +568,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/samsung.jpeg" alt="ok">
                             </div>
@@ -543,7 +589,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/fridge.jpeg" alt="ok">
                             </div>
@@ -564,7 +610,27 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob electronic-scroll">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/fridge.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> samsung-f12</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-mob electronic-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/fridge.jpeg" alt="ok">
                             </div>
@@ -596,11 +662,13 @@
  <div id="popular-accessories-main">
                 <div class="popular-mobiles-sub">
                     <h2>Popular Accessories Of This Month</h2>
+                    <button onclick="accessleft()">&lt;</button>
+                    <button onclick="accessright()">&gt;</button>   
                     <span>See More</span>
                 </div>
                 <div id="popular-accessories-content">
                     <ul class="row-content">
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>
@@ -622,7 +690,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>
@@ -644,7 +712,7 @@
                         
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>
@@ -665,7 +733,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>
@@ -686,7 +754,7 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>
@@ -707,7 +775,27 @@
                             </div>
                         </li>
 
-                        <li class="p-mob">
+                        <li class="p-mob access-scroll">
+                            <div class="mobile-img laptop-img">
+                                <img src="/images/headphone.jpeg" alt="ok">
+                            </div>
+                            <div class="electronic-detail">
+                                <span class="pro_name">
+                                    <a href="#"> samsung-f12</a></span>
+                                    <div class="rating">
+                                    <span class="price">Rs 560000</span>                                  
+                                </div>
+                            </div>
+                            <div class="button-compare">
+                                <div class="view_pro elec-compare">
+                                    <p>View More</p>
+                                </div>
+                                <div class="compare elec-compare">
+                                    <p><i class="fas fa-plus"></i>Compare</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="p-mob access-scroll">
                             <div class="mobile-img laptop-img">
                                 <img src="/images/headphone.jpeg" alt="ok">
                             </div>

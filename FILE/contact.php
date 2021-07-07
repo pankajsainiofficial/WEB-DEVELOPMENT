@@ -24,13 +24,13 @@
         </div>
         <div id="contactus">
             <div class="map-img">
-
-            </div>
-            <div id="mainform">
-                <div class="inputform">
-                    <div class="productform formhgt">
+                </div>
+                <div id="mainform">
+                    <div class="inputform">
+                        <div class="productform formhgt">
                             <h2>Send us a Message</h2>
-                        <section class="contactform">
+                            <form action="submit" method="post">
+                                <section class="contactform">
                             <label>Full Name
                                 <span>
                                     <input type="text" placeholder="Type your full Name...">
@@ -38,34 +38,53 @@
                             </label>
                             <label>Mobile No.
                                 <span>
-                                    <input type="number" placeholder="Your Mobile Number...">
+                                    <input name="mobile" type="number" placeholder="Your Mobile Number...">
                                 </span>
                             </label>
                             <label>Email address
                                 <span>
-                                    <input type="email" placeholder="Email address">
+                                    <input name="email" type="email" placeholder="Email address">
                                 </span>
                             </label>
                             <label>Subject
                                 <span>
-                                    <input type="text" placeholder="The message subject...">
+                                    <input name="subject" type="text" placeholder="The message subject...">
                                 </span>
                             </label>
                             <label>Description
                                 <span>
                                     <!-- <input type="text" placeholder="Type here..."> -->
-                                <textarea name="Desc." id="descarea"  rows="12" placeholder="Type your message here"></textarea>
+                                    <textarea name="Desc." id="descarea"  rows="12" placeholder="Type your message here"></textarea>
                                 </span>
                             </label>
                         </section>
-                    </div>
-                    <div class="contact-address formhgt ">
-
-
+                        <button Type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="contact-address formhgt ">
+                    <div class="email cad">
+                       <i class="fas fa-envelope-open-text contact-logo">
+                           </i>  
+                           <h3>Email Address</h3>
+                           <h2>pankajsaini19967@gmail.com<br> parishjainofficial@gmail.com</h2>                  
+                        </div>
+                        <div class="headquartor cad">
+                            <i class="fas fa-map-marker-alt contact-logo"></i>
+                            <h3>Headquarters</h3> 
+                            <h2>Municipal Corporation D-zone,<br> Ludhiana,Punjab</h2>
+                        </div>
+                        <div class="phoneno cad">
+                            <i class="fas fa-phone-alt contact-logo"></i>
+                            <h3>Contact No.</h3> 
+                            <h2>9988277695<br>9465932244</h2>
+                        </div>
+                        
                     </div>
                 </div>
 
 
+
+            
             </div>
         </div>
     </div>

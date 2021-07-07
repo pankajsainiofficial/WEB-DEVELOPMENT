@@ -61,7 +61,7 @@
 .abt_wrapper h2 {
     margin: 15px 0px 10px 0px;
 }
-.abt_wrapper p {
+.abt_wrapper section{
     margin-bottom: 40px;
 }
 .abt_wrapper hr {
