@@ -48,3 +48,8 @@
     top: 25px;
     cursor: pointer;
 }
+#advertisecontent{
+    border: 1px solid red;
+    width: 100%;
+    height: 50%;
+}
