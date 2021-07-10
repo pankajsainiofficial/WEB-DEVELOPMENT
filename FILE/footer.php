@@ -19,7 +19,7 @@
         <div class="navigate footer-fix">
             <h3>Navigate</h3>
             <ul>
-                <li><i class="fas fa-angle-double-right">&nbsp <a href="#">Advertise With Us</a></i></li>
+                <li><i class="fas fa-angle-double-right">&nbsp <a href="advertise.php">Advertise With Us</a></i></li>
                 <li><i class="fas fa-angle-double-right">&nbsp <a href="#">About Us</a></i></li>
                 <li><i class="fas fa-angle-double-right">&nbsp <a href="#">Terms & Conditions</a></i></li>
                 <li><i class="fas fa-angle-double-right">&nbsp <a href="#">Privacy Policy</a></i></li>

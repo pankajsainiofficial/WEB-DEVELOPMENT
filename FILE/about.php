@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +14,13 @@
     <title>THIS is About US page</title>
 </head>
 <!-- onload="show()" -->
-<body >
+<body>
     <?php
         require "header.php";
     ?>
     <div id="about_container">
         <div class="about_head">
-            <div class="product_bg"></div>
+                           
             <div class="about_main">
                 <h2>About Us at Price-Pair</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, cumque! Reiciendis nisi, ipsam

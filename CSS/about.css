@@ -1,7 +1,6 @@
 
-#about_container {
+#about_container { 
     height: 100%;
-
 }
 .about_head {
     height: 300px;
@@ -9,19 +8,28 @@
     position: relative;
     color: white;
     font-family: sans-serif;
-    z-index: 1;
 }
-.product_bg {
-    background: url("/photos/aboutmain.jpg") center center; 
+.about_head::before {
+    content: '';
+    background: url("/photos/aboutmain.jpg") no-repeat center center; 
     height: 100%;
     width: 100%;
-    z-index: -1;
     position: absolute;
-    opacity: 0.6;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.2; */
+    filter: blur(2.5px);
+    -wibkit-filter: blur(2.5px);
 }
 .about_main {
     text-align: center;
     display: flex;
+    position: relative;
+    z-index: 2;
+    color: white;
     height: 100%;
     width: 50%;
     margin: 0px auto 0px auto;
@@ -30,11 +38,13 @@
 }
 .about_main h2 {
     font-weight: 700;
+    opacity: 1;
     font-size: 40px;
     line-height: 50px;
     padding: 15px;
 }
 .about_main p {
+    opacity: 1;
     line-height: 2;
     font-family: cursive;
 }

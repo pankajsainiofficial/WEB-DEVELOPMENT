@@ -1,3 +1,7 @@
+<?php
+    include "connection.php"
+?>
+
 <div id="header">
             <div class="logo">
                 <img src="/photos/weblogo.png" alt="ok">

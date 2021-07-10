@@ -17,23 +17,40 @@
 <body>
     <?php
             require "header.php";
-        ?>
+    ?>
     <div id="contact-container">
         <div class="contact">
             <h2> Contact </h2>
         </div>
         <div id="contactus">
+        <?php
+        if(isset($_POST['submit'])){
+            $name=$_REQUEST["fullname"];
+            $mno= $_REQUEST["mobile"];
+            $email= $_REQUEST["email"];
+            $sub= $_REQUEST["subject"];
+            $message= $_REQUEST["Desc"];            
+            $sql = "INSERT INTO `contact` (`Name`, `mobile`, `email`, `subject`, `message`) VALUES ('$name, '$mno', '$email', '$sub', '$message')";
+            $result = mysqli_query ($conn, $sql);
+            if($result){
+                echo "Record added succesfully";
+            }
+            else {
+                echo "Record not added";
+            }
+        }
+        ?>       
             <div class="map-img">
                 </div>
                 <div id="mainform">
                     <div class="inputform">
                         <div class="productform formhgt">
                             <h2>Send us a Message</h2>
-                            <form action="submit" method="post">
+                            <form action="#" method="post">
                                 <section class="contactform">
                             <label>Full Name
                                 <span>
-                                    <input type="text" placeholder="Type your full Name...">
+                                    <input name= "fullname" type="text" placeholder="Type your full Name...">
                                 </span>
                             </label>
                             <label>Mobile No.
@@ -54,11 +71,11 @@
                             <label>Description
                                 <span>
                                     <!-- <input type="text" placeholder="Type here..."> -->
-                                    <textarea name="Desc." id="descarea"  rows="12" placeholder="Type your message here"></textarea>
+                                    <textarea name="Desc" id="descarea"  rows="12" placeholder="Type your message here"></textarea>
                                 </span>
                             </label>
                         </section>
-                        <button Type="submit">SEND MESSAGE</button>
+                        <button Type="submit" name="submit">SEND MESSAGE</button>
                     </form>
                 </div>
                 <div class="contact-address formhgt ">

@@ -9,12 +9,12 @@
     <title>Document</title>
 </head>
 <body>
-    <table  >
+    <table>
         <tr >
             <td> USER_NAME:</td>
             <td>PASSWORD:</td>
-            </tr>
-            </table>
+        </tr>
+    </table>
             <a href="AdminLogin.php">
             <a href="UserLogin.php">
             
