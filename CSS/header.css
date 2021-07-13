@@ -12,10 +12,6 @@ body {
     display: flex;
     border: 1px solid rgb(139, 216, 162);
     height: 68px;
-    /* background:(180deg,#3500d3,#fff); */
-    /* background: radial-gradient(farthest-side at 60% 55%,#fff,#3500d3 5%);
-     */
-     /* background: radial-gradient(circle, rgba(90,117,207,1) 0%, rgba(53,0,211,1) 100%); */
     background-color: navy;
 }
 #header h3 {
@@ -24,7 +20,6 @@ body {
 }
 
 .logo {
-    /* border: 1px solid red; */
     display: flex;
     padding-right: 20px;
     text-align: center;
@@ -51,7 +46,6 @@ body {
     position: relative;
     align-items: center;
     width: 65%;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -146,13 +140,11 @@ body {
     cursor: pointer;
 }
 .sub-menu {
-    /* display: none;   */
     visibility: hidden;
     opacity: 0;
     margin-top: 80px;
 }
 .categories_list:hover .sub-menu{
-    /* display: block; */
     visibility: visible;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -229,7 +221,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 10px 30px 10px 30px;
-    /* height: 25px; */
 }
 .nav-fix li {
     font-size: 16px;

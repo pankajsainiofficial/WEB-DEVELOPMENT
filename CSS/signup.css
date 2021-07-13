@@ -1,0 +1,67 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+#signupcontent {
+        z-index: 60;
+        position: fixed;
+        top: 5%;
+        /* bottom: 2%; */
+        width: 100%;
+}
+#registerform {
+    width: 35%;
+    padding: 20px;
+    background-color: azure;
+    border: 1px solid red;
+    margin: 15px auto 0px auto;
+}
+#registerform section {
+    display: flex;
+    justify-content: center;
+}
+.fa-times {
+    position: relative;
+    left: 3%;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#registerform h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.registermain span {
+    display: block;
+    text-align: center;
+}
+.registermain section {
+    margin-bottom: 50px;
+    display: flex;
+    box-sizing: border-box ;
+    flex-direction: column;
+}
+.registermain label {
+    display: grid;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+.registermain input {
+    padding: 10px;
+    font-size: 15px;
+}
+.registermain{ 
+    margin-top: 15px;
+}
+.registermain button {
+    font-size: 15px;
+    /* padding: 10px; */
+    /* margin-left: 8px; */
+    padding: 9px 18px 9px 18px;
+    background-color: orange;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+

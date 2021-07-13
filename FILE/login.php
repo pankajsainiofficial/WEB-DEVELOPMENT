@@ -9,14 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <tr >
-            <td> USER_NAME:</td>
-            <td>PASSWORD:</td>
-        </tr>
-    </table>
-            <a href="AdminLogin.php">
-            <a href="UserLogin.php">
-            
+   
 </body>
 </html> 

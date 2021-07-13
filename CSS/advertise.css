@@ -1,10 +1,12 @@
+body {
+    width: 100%;
+}
 #advertisecontainer{
     height: 100%;
 }
 .imagesec{
     border: 1px solid red;
     position: relative;
-    /* background-?color: blu?e; */
     height: 310px;
     width : 100%; 
 }
@@ -48,8 +50,47 @@
     top: 25px;
     cursor: pointer;
 }
+
+/* -----------------advertise-content------------------- */
 #advertisecontent{
-    border: 1px solid red;
-    width: 100%;
-    height: 50%;
+    border: 1px solid darkred;
+    width: 70%;
+    height: 100%;
+    margin: 20px auto 20px auto;
 }
+.advertisemain h2 {
+    text-align: center;
+    color: #FF2E00;
+    font-size:34px;
+    margin-bottom: 15px;
+}
+.about-advertise{
+    display: flex;
+    height: 450px;
+    border: 1px solid red;
+}
+.about-advertise span{
+    margin: auto;
+}
+.advertiseinfo{
+    margin: auto 30px auto 30px;
+}
+.fa-user-friends{
+    color: #FFA45E;
+    font-size: 40px !important;
+
+}
+.advertiseinfo button{
+    background-color: #0092ed;
+    padding: 6px;
+    color: white;
+    /* margin: 5px auto 0px 180px; */
+    width: 20%;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    align-items: center;
+}
+
