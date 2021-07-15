@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 .imagesec{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     height: 310px;
     width : 100%; 
@@ -50,10 +50,14 @@ body {
     top: 25px;
     cursor: pointer;
 }
+.getlinkbutton a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /* -----------------advertise-content------------------- */
 #advertisecontent{
-    border: 1px solid darkred;
+    /* border: 1px solid darkred; */
     width: 70%;
     height: 100%;
     margin: 20px auto 20px auto;
@@ -62,12 +66,12 @@ body {
     text-align: center;
     color: #FF2E00;
     font-size:34px;
-    margin-bottom: 15px;
+    margin-bottom: -40px;
 }
 .about-advertise{
     display: flex;
     height: 450px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .about-advertise span{
     margin: auto;
@@ -93,4 +97,141 @@ body {
     cursor: pointer;
     align-items: center;
 }
+/* ------------------advertise-benefit-------------- */
+#advertise-benefit{
+    /* border: 3px solid red; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding: 40px auto 40px auto; */
+    position: relative;
+    background: #ecf3fe;
+    height: 400px;
+    width: 1513px;
+}
+.benefit-heading h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: "SkyTextMedium", sans-serif;
+}
+.benefit-heading h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #575757;
+    font-family: "SkyTextRegular", sans-serif;
+}
+#benefit{
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+}
+#mainfield {
+    display: grid;
+    width: 73%;
+    margin: 0px auto 0px auto;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+.field {
+    /* margin: 5px auto 5px auto; */
+    margin: 5px 10px 5px 10px;
+    /* border: 1px solid red; */
+    padding: 30px;
+    line-height: 30px;
+}
+.field h2{
+    font-size: 22px;
+}
+/* -------------------ouradvertiser---------------- */
+#ouradvertiser{
+    /* border: 1px solid red; */
+    height: 200PX;
+    margin-top: 40px;
+}
+#ouradvertiser h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: "SkyTextMedium", sans-serif;
+}
+
+
+
+
+/* -----------------------getintouch------------------------ */
+#main-getintouch{
+    margin-top: 50px;
+}
+#Getintouch{
+    /* border: 3px solid red; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* padding: 40px auto 40px auto; */
+    position: relative;
+    background: #ecf3fe;
+    height: 900px;  
+    width: 1513px;
+}
+.getintouch-heading h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: "SkyTextMedium", sans-serif;
+}
+.getintouch-heading h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #575757;
+    font-family: "SkyTextRegular", sans-serif;
+}
+#getintouch-allform{
+    padding: auto;
+    margin: 0px auto 0px auto;
+}
+#main-getintouch{
+    /* border: 1px solid red; */
+}
+.gettouchform{
+    /* border: 1px solid blue; */
+    width: 73%;
+    text-align: center;
+    margin: 10px auto 15px auto;
+}
+.gettouchform section {                       
+    display: table;
+    width: 50%;
+    margin: auto;
+}
+.gettouchform label{
+    font-family: "SkyTextMedium", sans-serif;
+    margin-bottom: 5px;
+    font-size: 15px;
+    float: left;
+}
+.gettouchform input
+{
+    padding: 10px;
+    font-size: 18px;
+    width:100%;
+    height: auto;
+}
+.form-section6 input{
+    height : 150px!important;
+}
+.get-button{
+    display: block;
+    text-align: center;
+}
+.get-button button{                                  
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #0092ED;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
 

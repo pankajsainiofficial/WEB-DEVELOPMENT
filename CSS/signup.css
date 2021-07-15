@@ -1,67 +1,111 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 #signupcontent {
-        z-index: 60;
-        position: fixed;
-        top: 5%;
-        /* bottom: 2%; */
         width: 100%;
 }
 #registerform {
-    width: 35%;
-    padding: 20px;
-    background-color: azure;
-    border: 1px solid red;
-    margin: 15px auto 0px auto;
+    width: 430px;
+    height: 700px;
+    margin: 20px auto 20px auto;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
 }
-#registerform section {
-    display: flex;
-    justify-content: center;
+.signuplogo {
+    background: url("/photos/weblogo.png") no-repeat center center;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf,-8px -8px 15px #ffffff;
 }
-.fa-times {
-    position: relative;
-    left: 3%;
-    padding: 10px;
-    font-size: 30px;
-    cursor: pointer;
-}
-#registerform h2 {
+.signuptitle {
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px               
 }
-.registermain span {
-    display: block;
+.signup-sub-title {
     text-align: center;
-}
-.registermain section {
-    margin-bottom: 50px;
-    display: flex;
-    box-sizing: border-box ;
-    flex-direction: column;
-}
-.registermain label {
-    display: grid;
-    line-height: 2rem;
-    margin-top: 10px;
-}
-.registermain input {
-    padding: 10px;
     font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
 }
-.registermain{ 
-    margin-top: 15px;
+.signupfields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.signupfields input {
+    border: none;
+    outline: none;
+    width: 70%;
+    background: none;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.signupfields input:-webkit-autofill,
+.signupfields input:-webkit-autofill:hover,
+.signupfields input:-webkit-autofill:focus,
+.signupfields input:-webkit-autofill:active {
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.username, .emailadd, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.signupfields svg {
+    height: 22px;
+    margin: 0 10px -3px 25px;
 }
 .registermain button {
-    font-size: 15px;
-    /* padding: 10px; */
-    /* margin-left: 8px; */
-    padding: 9px 18px 9px 18px;
-    background-color: orange;
-    color: white;
-    font-weight: 800;
+    outline: none;
+    border: none;
     cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1, -3x -3x 8px #ffffff;
+    transition: 0.5s;
 }
-
-
+.registermain button:hover{
+    background: #2fdbb6;
+}
+.registermain button:active {
+    background: #1da88a;
+}
+.fal {
+    font-size: 18px;
+    margin: 0px 10px 0px 20px;
+}
+/* /------------------------------alert-message--------------------------- */
+.alert {
+    padding: 15px;
+    font-size: 20px;
+}
+.alert button{
+    position: relative;
+    float: right;
+    padding: 3px;
+    font-size: 12px;
+}
+.alert-success {
+    background-color: rgb(123, 214, 123);
+}
+.alert-danger {
+      background-color: rosybrown;
+}

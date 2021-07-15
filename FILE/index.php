@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+        header("location: login.php");
+        exit;
+    }
+    // echo 'Welcome :-'. $_SESSION['username'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +17,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/signup.css">
     <script src="/JS/index.js"></script>
-    <script src="/JS/jquery-3.6.0.min.js"></script>
-    <script src="/JS/jquery.js"></script>
+   
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">

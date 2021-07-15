@@ -144,7 +144,7 @@ body {
     opacity: 0;
     margin-top: 80px;
 }
-.categories_list:hover .sub-menu{
+.categories_list >li:hover .sub-menu{
     visibility: visible;
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
