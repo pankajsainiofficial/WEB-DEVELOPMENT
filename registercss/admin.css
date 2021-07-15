@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#adminmenu {
+    display: flex;
+    width: 100%;
+}
+ /* -----------------------adminnav-------------------------- */
+.adminnav{
+     width: 20%;
+     height: 100vh;
+     background: #0b132b;
+     border: 1px solid blue;
+}
+.brandlogo{
+      border: 1px solid blue;
+      padding: 5px 10px 5px 10px;
+      display: flex;
+}
+.brandadmin{
+       /* border:  1px solid red; */
+       margin:  auto;
+       display: flex;
+}
+.brandlogo h2{
+    display: block;
+    /* border: 1px solid red; */
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 28px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* -----------------------admin-control------------------ */
+
+
+.admincontrol {
+    border: 1px solid blue;
+    width: 80%;
+}
+.adminhead {
+    border: 1px solid red;
+    display: flex;
+    /* height: 70px; */
+}
+.fal {
+    font-size: 30px !important;
+}
+.adminhead section {
+    width: 50%;
+    border: 1px solid gold;
+    margin: auto 30px auto 15px;
+}
+.adminhead input {
+    font-size: 20px;
+    padding: 6px;
+    width: 90%;
+}
+.adminsetting {
+    padding: auto;
+    display: flex;
+    justify-content: flex-end; 
+}
+.adminsetting > .accset{
+    margin-right: 15px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}     
+.adminimg img {
+    height: 100%;
+    width: 100%;
+}
+.adminimg {
+    border: 1px solid red   ;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}

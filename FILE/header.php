@@ -62,7 +62,7 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="/register/admin.php">Admin</a></li>
                     <li><a href="shop.php">Top Deals</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="shop.php">Faq</a></li>
