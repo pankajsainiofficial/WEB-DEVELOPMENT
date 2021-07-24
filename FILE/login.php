@@ -17,7 +17,7 @@
                     $_SESSION['loggedin']= true;
                     $_SESSION['username']= $row['username'];
                     $_SESSION['emailid']= $emailid;
-                    header("location: index.php");
+                    header("location: /register/admin.php");
                 }
                 else {
                     $showError = "Invalid Credential";

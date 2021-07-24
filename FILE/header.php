@@ -43,19 +43,19 @@
         <div id="navbar">
             <div id="categories">
                 <ul class="categories_list nav-fix">
-                    <li>Shop By Categories
-                    <i class="fas fa-caret-down"></i>
-                        <div class="sub-menu">
-                            <ul>
-                                <li>laptop</li>
-                                <li>mobile</li>
-                                <li>mobile</li>
-                                <li>mobile</li>
-                                <li>mobile</li>
-                                <li>mobile</li>
-                            </ul>
-                        </div>
+                    <li>Shop By Categories 
+                        <i class="fas fa-caret-down"></i>
                     </li>
+                    <div class="sub-menu">
+                        <ul>
+                            <li>laptop</li>
+                            <li>mobile</li>
+                            <li>mobile</li>
+                            <li>mobile</li>
+                            <li>mobile</li>
+                            <li>mobile</li>
+                        </ul>
+                    </div>
                 </ul>
             </div>
             <div id="nav_list" class="nav-fix">
@@ -65,7 +65,7 @@
                     <li><a href="/register/admin.php">Admin</a></li>
                     <li><a href="shop.php">Top Deals</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="shop.php">Faq</a></li>
+                    <li><a href="compare.php">Compare</a></li>
                 </ul>
             </div>
         </div>

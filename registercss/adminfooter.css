@@ -1,0 +1,20 @@
+/* -----------------copyright------------------ */
+#copyright {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background: rgb(183, 116, 216);
+}
+#copyright > .copyright-box {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 20px; */
+}
+#copyright > .copyright-box h6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    margin: 0px 50px 0px 50px;
+    font-family: cursive;
+}

@@ -1,0 +1,64 @@
+*{
+  margin:  0;
+  padding: 0;  
+}
+/* --------------------sub-compare--------------- */
+#sub-compare{
+    padding: 50px 100px 50px 100px;
+}
+/* ----------------address-bar-------------- */
+#address-bar h3{
+    width: 100%;
+    display: block;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+/* ----------------------product-filter--------------- */
+#productf-filter{
+
+
+}
+.filter{
+    border: 3px solid red;
+    float: left;
+    width: 300px;
+    height: 1200px
+}
+.filter-heading{
+    border: 1px solid blue;
+    display: flex;
+
+}
+.filter-heading h2{
+    font-size: 40px;
+    font-family: system-ui;
+    display: block;
+    /* border: 1px solid; */
+    margin-left: 6px;
+    color: dimgray;
+}
+.filter-heading i{
+    font-size: 30px;
+    /* border: 1px solid; */
+    padding-top: 16px;
+    color: cadetblue;
+}
+.search-criteria{
+    border: 1px solid blue;
+} 
+.criteria-heading h2{
+    margin-top: 15px;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    font-family: Montserrat;
+    display: block;
+}
+.entry input{
+    width: 75%;
+
+}
+
+    

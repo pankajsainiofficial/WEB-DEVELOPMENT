@@ -2,172 +2,16 @@
     margin: 0;
     padding: 0;
 }
-#adminmenu {
+.mainadminmenu {
     display: flex;
     width: 100%;
 }
 body {
-    background: #ecf0f4;
+    background: #f3f3f9;
     /* width: 100vw; */
 }
 
-/* --------------------sidemenu------------------------------------- */
-.adminnav {
-    color: white;   
-}
-.adminmenu-list{
-    height: 650px;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-.adminmenu-list li{
-    display: flex;
-    padding: 10px 0px 10px 0px;
-    cursor: pointer;
-    white-space: nowrap;
-}
-.adminmenu-list li:hover{
-    background-color: black;
-}
-.adminmenu-list span {
-    display: block;
-}
-.formtext{
-    font-size: 29px;
-    font-family: math; 
-    /* border: 1px solid blue; */
-    width: 80%;
-    margin-left: 15px;
-}
-.menulogo{
-    font-size: 32px !important;
-    /* border: 1px solid blue; */
-    width: 20%;
-    text-align: center;
-}
-.forms-arrow i{
-    display: block;
-    /* border: 2px solid blue; */
-    font-size: 27px !important;
-    margin-right: 5px;
-    margin-top: 5px;
-}
-/* -----------------------adminnav-------------------------- */
-.admincontrol {
-    padding: 0px 30px 0px 30px;
- }
-.adminnav{
-     width: 20%;
-     /* height: 100vh; */
-     background: #0b132b;
-     /* border: 1px solid blue; */
-}
-.brandlogo{
-      /* border: 1px solid blue; */
-      padding: 5px 10px 5px 10px;
-      display: flex;
-}
-.brandadmin{
-       /* border:  1px solid red; */
-       margin:  auto;
-       display: flex;
-}
-.brandlogo h2{
-    display: block;
-    /* border: 1px solid red; */
-    font-size: 35px;
-    text-align: center;
-    color: white;
-    padding-top: 28px;
-    padding-left: 20px;
-}
-#adminwelcome , .adminblock {
-    padding: 35px 0px 35px 0px;
-}
-.adminwelcome {
-    /* border: 1px solid red; */
-    display: flex;
-    padding: 10px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 0 0 35px 0 rgb(0 0 0 / 40%);
-    /* background: burlywood; */
-    background-image: linear-gradient( 
-        135deg
-        , #FDD819 10%, #E80505 100%);
-}
-.adminwelcome > section > h2{
-    color: blue;
-}
-.adminwelcome > section > p{
-    color: white;
-    font-weight: 400;
-}
-.adminwelcome img{
-    height: 200px;
-    width: 300px;
-}
-.adminwelcome > section {
-    margin: 30px;
-    letter-spacing: 0.5px;
-    line-height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-
-
-    /* -----------------------admin-control------------------ */
-
-
-.admincontrol {
-    /* border: 1px solid blue; */
-    width: 80%;
-}
-.adminhead {
-    /* border: 1px solid red; */
-    display: flex;
-    /* height: 70px; */
-}
-.fal {
-    font-size: 30px !important;
-}
-.adminhead section {
-    width: 50%;
-    /* border: 1px solxid gold; */
-    margin: auto 30px auto 15px;
-}
-.adminhead input {
-    font-size: 20px;
-    padding: 6px;
-    width: 100%;
-    outline: none;
-}
-.adminsetting {
-    padding: auto;
-    display: flex;
-    justify-content: flex-end; 
-}
-.adminsetting > .accset{
-    margin-right: 15px; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}     
-.adminimg img {
-    height: 100%;
-    width: 100%;
-}
-.adminimg {
-    /* border: 1px solid red; */
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-}
-#adminwelcome {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 /* -----------------------------------Admincontainer------------------------------------------ */
 .admininformation {
     display: flex;
@@ -258,12 +102,14 @@ body {
     font-family: monospace;
 }
 #adminactivity {
+
     display: flex;
-    height: 450px;
+    height: 480px;
 }
 .activitychart {
     margin-right: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-radius: 10px;
     color: #fff;
     width: 70%;
     box-shadow: 0 0 10px 0 #555;
@@ -338,10 +184,10 @@ body {
 .bars .bar {
     display: block;
     background: #17C0EB;
-    width: 50px;
+    width: 30px;
     position: absolute;
     bottom: 0;
-    margin-left: 25px;
+    margin-left: 15px;
     text-align: center;
     box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
     transition-property: background, box-shadow;
@@ -358,11 +204,103 @@ body {
     bottom: 20px;
 }
 
+
+.signboard {
+	width: 150px;
+	height: 8px;
+    display: inline-block;
+    /* bottom: -120px; */
+    left: 80%;
+    top: -75px;
+	position: relative;
+	animation: swinging 1.5s ease-in-out infinite alternate;
+    /* transform-origin: 80px 13px; */
+}
+.sign {
+	width: 100%;
+	height: 80px;
+    top: 40px;
+	/* height: 200px; */
+	background: burlywood;
+    box-shadow: 0 0 10px 0 #555;
+	border-radius: 15px;
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	color: saddlebrown;
+	font-family: serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 80px;
+	text-shadow: 0 2px 0 rgba(255, 255, 255, 0.3),
+				0 -2px 0 rgba(0, 0, 0, 0.7);
+}
+
+.strings {
+	width: 45px;
+	height: 45px;
+	border: 5px solid brown;
+	position: absolute;
+	border-right: none;
+	border-bottom: none;
+	transform: rotate(45deg);
+	top: 15px;
+	left: 49px;
+}
+
+.pin {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.pin.top {
+	background: darkgray;
+	left: 66px;
+    bottom: -8px;
+}
+
+.pin.left,
+.pin.right {
+	background: brown;
+	top: 35px;
+	box-shadow: 0 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.pin.left {
+	left: 100px;
+}
+
+.pin.right {
+	right: 102px;
+}
+
+@keyframes swinging {
+	from {
+		transform: rotate(10deg);
+	}
+
+	to {
+		transform: rotate(-10deg);
+	}
+}
+
+
+
+
+
+
+
+
+
 /* -------------------------Target------------------------------- */
 .target {
     /* border: 1px solid red; */
     width: 29%;
+    border-radius: 10px;
     /* height: 440px; */
+    box-shadow: 0 0 10px 0 #555;
     background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);
 }
 .target span {
@@ -417,14 +355,16 @@ body {
   ------------------------------Best-selling-Products------------------------
   --------------------------------------------------------------------------- */
 #bspadmin {
+    border-radius: 10px;
     /* border: 1px solid red; */
     /* height: 425px; */
     /* background:; */
+    box-shadow: 0 0 10px 0 #555;
     background-color: #0093E9;
 background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
     /* background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%); */
-    box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
+    /* box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%); */
 }
 .bsproducts {
     padding: 20px;
@@ -449,7 +389,8 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     justify-content: space-between;
 }
 .bsproducts button {
-    box-shadow: 0 0 25px 0 rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 #555; 
     border: 1px solid #555;
     margin: 4px;
     padding: 5px;
@@ -485,24 +426,23 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 /* ---------------------------------------------------------------------------
   -----------------------------social-linkage------------------------
   --------------------------------------------------------------------------- */
-#social-linkage{
+#social-linkage {
     display: flex;
-    /* border: 3px solid blue; */
-    margin: 25px auto 25px auto;
+    justify-content: space-between;
+    /* margin: 35px auto 35px auto; */
+
 }
 .social{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 180px;
     width: 200px;
-    margin-right: 38px;
-    
-}
-.social1{
-    border: 2px solid red;
-    height: 180px;
-    width: 200px;
+    /* margin-right: 38px; */
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 0 35px 0 rgb(0 0 0/ 40%);
 }
 .link{
+    /* border: 2px solid red; */
     text-align: center;
     padding-bottom: 20px;
     position: relative;
@@ -527,4 +467,27 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 .fa-facebook,.fa-linkedin-in,.fa-google-plus-g,.fa-twitter,.fa-instagram{
     font-size: 60px!important;
     padding: 15px;
+}
+.socialcount{
+    display: flex;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    height: 40%;
+}
+.friends,.followers{    
+    /* border: 2px solid blue; */
+    width: 50%;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.friends h3,.followers h3{
+    font-size: 24px;
+}
+.followers h4,.friends h4{
+    font-size: 18px;
+    color: #990011ff;
 }
