@@ -15,15 +15,16 @@
 }
 
 /* ----------------------product-filter--------------- */
-#productf-filter{
-
+#product-filter{
+ 
 
 }
 .filter{
     border: 3px solid red;
     float: left;
     width: 300px;
-    height: 1200px
+    /* height: 1400px; */
+    padding: 10px auto 10px auto;
 }
 .filter-heading{
     border: 1px solid blue;
@@ -42,23 +43,62 @@
     font-size: 30px;
     /* border: 1px solid; */
     padding-top: 16px;
-    color: cadetblue;
+    color: black;
 }
-.search-criteria{
+.crt-top{
     border: 1px solid blue;
+    margin-top: 12px;
 } 
-.criteria-heading h2{
-    margin-top: 15px;
-    border: 1px solid red;
-    font-size: 18px;
+.criteria1 h2{
+    /* border: 1px solid red; */
+    font-size: 17px;
     font-weight: 600;
     color: #000;
     font-family: Montserrat;
     display: block;
+    margin-left: 6px;
+
 }
+.crt-sub{
+    margin-top: 4px;
+}
+.crt-sub li{
+    list-style: none;
+}
+.crt-sub ul{
+    MAX-HEIGHT: 232PX;
+    OVERFLOW: HIDDEN;
+    OVERFLOW-Y: SCROLL;
+    line-height: 21px;
+}
+.crt-sub
+
 .entry input{
-    width: 75%;
-
+    width: 90%;
+    font-size: 15px;
+    padding: 8px 10px;
+    padding-top: 10px;
+    border-radius: 9.5px;
+    background-color: #4f4e56;
+    border: 2px solid transparent;
+    box-shadow: 0 3px 15px -2px rgb(79 78 86 / 25%);
+    -webkit-text-fill-color: white;
+}
+.range-slider{
+    border: 1px solid red;
+    width: 100%;
+    background-color: blue;
+    height: 35px;
+    border-radius: 7.5px;
+}
+.brand input{
+    width: 60%;
+    font-size: 14px;
+    padding: 5px 7px;
+    /* background-color: #4f4e56; */
+    box-shadow: 0 3px 15px -2px rgb(79 78 86 / 25%);
+    -webkit-text-fill-color: black;
 }
 
-    
+
+

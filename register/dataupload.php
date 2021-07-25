@@ -52,7 +52,7 @@
                             <img src="" alt="">
                         </span>
                     </div>
-<!-- ----------------------------------datasection--------------------------- -->
+                    <!-- ----------------------------------datasection--------------------------- -->
                     <div id="datasection">
                         <section class="dataentryproduct">
                             <div class="admincategory">
@@ -69,22 +69,125 @@
                                     <option value="Smart-Home">Smart Home</option>
                                 </select>
                             </div>
-                            <table>
-                                <caption>Data entry here</caption>
-                                <tbody>
-                                    <tr><th>features</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Display</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Memory & Graphics</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Battery</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>camera</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Operating System</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Connectivity</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Dimention & Weight</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                    <tr><th>Extras</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
-                                </tbody>
-                            </table>
-                            <button>Upload Data</button>
                         </section>
+                        <div id="datacenter">
+                            <div class="dataproducts">
+                                <div class="datanavbar">
+                                    <ul>
+                                        <li>
+                                            <span>Vital Info.</span>
+                                        </li>
+
+                                        <li><span>Affiliate Link</span></li>
+                                        <li><span>Description</span></li>
+                                        <li><span>Prices and offers</span></li>
+                                        <li><span>Power Details</span></li>
+                                        <li><span>More Details</span></li>
+                                    </ul>
+                                </div>
+                                <!-- ----------------vitalform-------------------  -->
+                                <div id="vitalform" class="addproductfix">
+                                    <ul>
+                                        <li>Item name
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        <li>Brand name
+                                            <input list="brandname" name="modelname"
+                                                placeholder="enter the product name">
+                                            <datalist id="brandname">
+                                                <option value="Redmi">
+                                                <option value="Samsung">
+                                                <option value="Honor">
+                                                <option value="Iphone">
+                                                <option value="Vivo">
+                                                <option value="Oppo">
+                                            </datalist>
+                                        </li>
+                                        <li>Digital storage capacity
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        <li>Memory
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        </li>
+                                        <li>Operating System
+                                            <select name="operating system">
+                                                <option value="" disabled selected>Android</option>
+                                                <option value="ios 7">Ios7</option>
+                                                <option value="ios 8">Ios7</option>
+                                                <option value="Android 10">Ios7</option>
+                                                <option value="ios7">Ios 9</option>
+                                                <option value="ios7">BlackBerry 10</option>
+                                                <option value="ios7">Emui 10</option>
+                                                <option value="ios7">Ios 3</option>
+                                                <option value="ios7">Android 4.1</option>
+                                                <option value="ios7">Android 4.2</option>
+                                                <option value="ios7">Android 5.0</option>
+                                                <option value="ios7">Android 5.1</option>
+                                                <option value="ios7">Android 6.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                                <option value="ios7">Android 4.0</option>
+                                            </select>
+                                        <li>Wireless information
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        <li>Warrenty Discription
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        <li>Cellular Technology
+                                            <input list="cellular" name="modelname"
+                                                placeholder="enter the product name">
+                                            <datalist id="cellular">
+                                                <option value="5G">
+                                                <option value="4G">
+                                                <option value="3G">
+                                                <option value="2G">
+                                                <option value="GTA VICE CITY">
+                                            </datalist>
+                                        </li>
+                                        <li>Ram Size
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+                                        <li>Display Type
+                                            <input name="modelname" placeholder="enter the product name">
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!-- -------------------------------------affiliatelink-------------------------- -->
+                                <div id="affiliatelink">
+                                    <div class="affliatebox">
+                                        <ul>
+                                            <li>Affliate link
+                                                <input name="AffiliateLink" placeholder="Paste Affiliate link here">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- -------------------------------Discription--------------------- -->
+                                <div id="admindiscription">
+                                    <div class="discriptionbox">
+                                        <ul>
+                                            <li>Discription
+                                                   <textarea name="admindiscription" id="disc" rows="12"></textarea>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="navbutton">
+                                <button>Upload Data</button>
+                            </div>
+                        </div>
                     </div>
 
 

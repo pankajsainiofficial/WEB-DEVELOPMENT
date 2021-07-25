@@ -2,8 +2,8 @@ $(document).ready(function () {
     // console.log('this jquery is working');
     startcircle();
     startCounter();
-    // startprogressbar();
-    // target();
+    startprogressbar();
+    target();
     $(".close").on('click', ((e) => {
         hideitem();
         e.preventDefault();
@@ -187,3 +187,6 @@ function target(){
             });
         });
     }};
+
+    
+

@@ -95,21 +95,7 @@
             </div>
         </section>
     </header>
-    <div id="adminwelcome" class="adminblock">
-        <div class="adminwelcome">
-            <span>
-                <img src="/photos/welcome.png" alt="Welcome img">
-            </span>
-            <section>
-                <h3>Welcome Back</h3>
-                <h2>P.P BROTHERS</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officiis
-                    dignissimos nesciunt? Veritatis facilis laborum, modi distinctio odio necessitatibus
-                    quae autem. Et veniam recusandae totam? Eum dolorem repellendus expedita non
-                    consequuntur pariatur aliquid facere.</p>
-            </section>
-        </div>
-    </div>
+    
 
 
 
@@ -117,3 +103,21 @@
 
 
     <!-- -----------------------------------Admincontainer------------------------------------------ -->
+
+
+
+
+<!-- <table>
+    <caption>Data entry here</caption>
+    <tbody>
+        <tr><th>features</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Display</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Memory & Graphics</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Battery</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>camera</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Operating System</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Connectivity</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Dimention & Weight</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+        <tr><th>Extras</th><td><input type="text" name="productname" placeholder="enter product name here"></td></tr>
+    </tbody>
+</table> -->

@@ -10,7 +10,7 @@
             <div class="searchbar">
                 <div class="category">
                     <select name="search">
-                        <option value="Searchin">Search In</option>
+                        <option value="" disabled selected>Search In</option>
                         <option value="Mobiles">Mobiles</option>
                         <option value="Laptops">Laptops</option>
                         <option value="Tablets">Tablets</option>

@@ -30,7 +30,21 @@
             <?php   
                 include "dashboard.php"
             ?>
-
+        <div id="adminwelcome" class="adminblock">
+                <div class="adminwelcome">
+                    <span>
+                        <img src="/photos/welcome.png" alt="Welcome img">
+                    </span>
+                    <section>
+                        <h3>Welcome Back</h3>
+                        <h2>P.P BROTHERS</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus officiis
+                            dignissimos nesciunt? Veritatis facilis laborum, modi distinctio odio necessitatibus
+                            quae autem. Et veniam recusandae totam? Eum dolorem repellendus expedita non
+                            consequuntur pariatur aliquid facere.</p>
+                    </section>
+                </div>
+            </div>
             <!-- ----------------------sidemenu---------------------------->
 
             <!-- -----------------------------Dynamic-Cotainer-php------------------- -->
