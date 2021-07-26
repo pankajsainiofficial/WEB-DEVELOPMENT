@@ -20,19 +20,20 @@
 
 }
 .filter{
-    border: 3px solid red;
+    border: 2px solid red;
     float: left;
     width: 300px;
+    background: antiquewhite;
     /* height: 1400px; */
-    padding: 10px auto 10px auto;
+    padding: auto auto auto auto;
 }
 .filter-heading{
-    border: 1px solid blue;
+    border: 1px solid black;
     display: flex;
 
 }
 .filter-heading h2{
-    font-size: 40px;
+    font-size: 35px;
     font-family: system-ui;
     display: block;
     /* border: 1px solid; */
@@ -45,22 +46,25 @@
     padding-top: 16px;
     color: black;
 }
-.crt-top{
-    border: 1px solid blue;
-    margin-top: 12px;
+.crt-top{   
+    /* border: 1px solid blue; */
+    margin-top: 13px;
 } 
 .criteria1 h2{
-    /* border: 1px solid red; */
-    font-size: 17px;
+    /* border: 1px solid rgb(170, 0, 248); */
+    font-size: 16px;
     font-weight: 600;
-    color: #000;
+    /* background-color: #ec8b5e; */
     font-family: Montserrat;
     display: block;
-    margin-left: 6px;
-
+    /* margin-left: 6px; */
+    font-family: sans-serif;
+    color: #191919;
+    padding: 4px;
+    background: -webkit-linear-gradient(left, #DF9F28, #FDE08D, #8f6B29);
 }
 .crt-sub{
-    margin-top: 4px;
+    margin-top: 9px;
 }
 .crt-sub li{
     list-style: none;
@@ -71,23 +75,21 @@
     OVERFLOW-Y: SCROLL;
     line-height: 21px;
 }
-.crt-sub
-
 .entry input{
     width: 90%;
     font-size: 15px;
-    padding: 8px 10px;
-    padding-top: 10px;
-    border-radius: 9.5px;
-    background-color: #4f4e56;
-    border: 2px solid transparent;
+    padding: 5px 12px;
+    /* border-radius: 7.5px; */
+    /* background-color: lightslategray; */
+    /* border: 2px solid transparent; */
+    /* border: 1px solid red; */
     box-shadow: 0 3px 15px -2px rgb(79 78 86 / 25%);
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: black;
 }
 .range-slider{
     border: 1px solid red;
     width: 100%;
-    background-color: blue;
+    background-color: white;
     height: 35px;
     border-radius: 7.5px;
 }
@@ -99,6 +101,8 @@
     box-shadow: 0 3px 15px -2px rgb(79 78 86 / 25%);
     -webkit-text-fill-color: black;
 }
-
+.crt-sub label{
+    font-size: 14px;
+}
 
 

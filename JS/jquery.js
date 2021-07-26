@@ -3,13 +3,16 @@ $(document).ready(function () {
     startcircle();
     startCounter();
     startprogressbar();
+    buttonsoption()
     target();
     $(".close").on('click', ((e) => {
         hideitem();
         e.preventDefault();
     }));
 
+
     $('.formtext-menu').hide();
+
     $('.formmenu').on('click', (e) => {
         adminhide();
         e.preventDefault();
@@ -159,10 +162,21 @@ function startprogressbar(){
         });
     }};
 
+// ---------------------buttonsoption------------
 
+// function buttonsoption(){
+//     $('.buttonsoption').on("click",()=>{
+//         console.log($(this).href.css({
+//             "display" : "block"
+//         }));
+//     })
+// }
 
-
-
+function buttonsoption(a){
+    $(a).css({
+        "display":"block"
+    });
+};
 
 
 

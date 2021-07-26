@@ -142,7 +142,7 @@ tbody tr {
     display: none;
     border: 1px solid violet;
 }
-.addproductfix li,.affiliatelink li, .discriptionbox li{
+.addproductfix li,.affiliatebox li, .discriptionbox li, .productprice li, .productspower li, .extradetails li{
     list-style: none;
     margin: 20px;
 }
@@ -151,12 +151,12 @@ tbody tr {
     overflow: hidden;
     overflow-y: auto;
 }
-.addproductfix ul {
+.addproductfix ul, .productprice ul, .productspower ul, .extradetails ul {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-.addproductfix li input, #vitalform select, .affiliatelink li input {
+.addproductfix li input, #vitalform select, .affiliatebox li input, .productprice input, .productspower input, .extradetails input{
     padding: 4px;
     font-size: 20px;
     width: -webkit-fill-available;
@@ -176,6 +176,9 @@ tbody tr {
     justify-content: center;
 }
 /* ---------- Admin Discription --------- */
+#admindiscription {
+    display: none;
+}
 .discriptionbox ul {
     height: 250px !important;
 }
@@ -192,4 +195,20 @@ tbody tr {
     max-width: 50vw;
     height: 180px;
     max-height: 180px;
+}
+/* <!-- ---------------------------product-price-&-sales-------------------------- --> */
+#adminproductprice {
+    display: none;
+}
+.productprice input::-webkit-outer-spin-button ,
+.productprice input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* -------------------power---------- */
+#adminproductpower {
+    display: none;
+}
+#adminproductextra {
+    display: none;
 }

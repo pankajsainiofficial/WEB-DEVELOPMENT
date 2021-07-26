@@ -75,24 +75,24 @@
                                 <div class="datanavbar">
                                     <ul>
                                         <li>
-                                            <span>Vital Info.</span>
+                                            <span class="buttonsoption"  onclick="buttonsoption('#vitalform');">Vital Info.</a></span>
                                         </li>
 
-                                        <li><span>Affiliate Link</span></li>
-                                        <li><span>Description</span></li>
-                                        <li><span>Prices and offers</span></li>
-                                        <li><span>Power Details</span></li>
-                                        <li><span>More Details</span></li>
+                                        <li><span class="buttonsoption" onclick="buttonsoption('#affiliatelink');">Affiliate Link</span></li>
+                                        <li><span class="buttonsoption" onclick="buttonsoption('#admindiscription');">Description</span></li>
+                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductprice');">Prices and offers</span></li>
+                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductpower');">Power Details</span></li>
+                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductextra');">More Details</span></li>
                                     </ul>
                                 </div>
                                 <!-- ----------------vitalform-------------------  -->
-                                <div id="vitalform" class="addproductfix">
+                                <div id="vitalform" class="addproductfix hideunhide">
                                     <ul>
                                         <li>Item name
                                             <input name="modelname" placeholder="enter the product name">
                                         </li>
                                         <li>Brand name
-                                            <input list="brandname" name="modelname"
+                                            <input list="brandname" name="brandname"
                                                 placeholder="enter the product name">
                                             <datalist id="brandname">
                                                 <option value="Redmi">
@@ -104,10 +104,10 @@
                                             </datalist>
                                         </li>
                                         <li>Digital storage capacity
-                                            <input name="modelname" placeholder="enter the product name">
+                                            <input name="digistorage" placeholder="enter the product name">
                                         </li>
                                         <li>Memory
-                                            <input name="modelname" placeholder="enter the product name">
+                                            <input name="memory" placeholder="enter the product name">
                                         </li>
                                         </li>
                                         <li>Operating System
@@ -161,8 +161,8 @@
                                     </ul>
                                 </div>
                                 <!-- -------------------------------------affiliatelink-------------------------- -->
-                                <div id="affiliatelink">
-                                    <div class="affliatebox">
+                                <div id="affiliatelink" class="hideunhide">
+                                    <div class="affiliatebox">
                                         <ul>
                                             <li>Affliate link
                                                 <input name="AffiliateLink" placeholder="Paste Affiliate link here">
@@ -171,17 +171,77 @@
                                     </div>
                                 </div>
                                 <!-- -------------------------------Discription--------------------- -->
-                                <div id="admindiscription">
+                                <div id="admindiscription" class="hideunhide">
                                     <div class="discriptionbox">
                                         <ul>
                                             <li>Discription
                                                    <textarea name="admindiscription" id="disc" rows="12"></textarea>
                                             </li>
                                         </ul>
-                                        
                                     </div>
                                 </div>
-
+<!-- ---------------------------product-price-&-sales-------------------------- -->
+                                <div id="adminproductprice" class="hideunhide">
+                                    <div class="productprice">
+                                        <ul>
+                                            <li>amazon price
+                                                <input type="number" name="amaprice" placeholder="price on amazon">
+                                            </li>
+                                            <li>Flipkart price
+                                                <input type="number" name="flipprice" placeholder="price on Flipkart">
+                                            </li>
+                                            <li>ebay price
+                                                <input type="number" name="ebayprice" placeholder="price on Ebay">
+                                            </li>
+                                            <li>official price
+                                                <input type="number" name="offiprice" placeholder="price on Official website">
+                                            </li>
+                                            <li>Tata Cliq price
+                                                <input type="number" name="tataprice" placeholder="price on Tata Cliq">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+<!-- ------------------------------Power-Details---------------------------- -->
+                                <div id="adminproductpower" class="hideunhide">
+                                    <div class="productspower">
+                                        <ul>
+                                            <li>Type
+                                                <input list="moredetails" type="text" name="amaprice" placeholder="Type of battery">
+                                                <datalist id="moredetails">
+                                                <option value="Removeable battery">
+                                                <option value="Non-Removeable battery">
+                                            </datalist>
+                                            </li>
+                                            <li>Size
+                                                <input type="text" name="flipprice" placeholder="Size of Battery">
+                                            </li>
+                                            <li>Charging
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+<!-- --------------------------------Extra-Details-------------------------------- -->
+                                <div id="adminproductextra" class="hideunhide">
+                                    <div class="extradetails">
+                                        <ul>
+                                            <li>Extra
+                                                <input list="batterytype" type="text" name="amaprice" placeholder="Type of battery">
+                                                <datalist id="batterytype">
+                                                <option value="Testing Data">
+                                                <option value="Testing Data 2">
+                                            </datalist>
+                                            </li>
+                                            <li>Testing
+                                                <input type="text" name="flipprice" placeholder="Size of Battery">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
 
                             </div>
                             <div class="navbutton">

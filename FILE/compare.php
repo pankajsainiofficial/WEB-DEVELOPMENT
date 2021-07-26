@@ -32,8 +32,8 @@
                 <div id="product-filter">
                     <div class="filter">
                         <div class="filter-heading">
-                            <i class="fas fa-filter"></i>
-                            <h2> Filter</h2>
+                            <!-- <i class="fas fa-filter"></i> -->
+                            <h2> Filter Result</h2>
                         </div>
                         <div class="search-criteria crt-top">
                             <section class="criteria1">
@@ -187,6 +187,12 @@
                                     <li>
                                         <label>
                                             <input type="checkbox">
+                                            IOS
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
                                             FEATURE PHONE
                                         </label>
                                     </li>
@@ -206,6 +212,40 @@
                                         <label>
                                             <input type="checkbox">
                                             CDMA
+                                        </label>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>                        
+ <!------------------------------------------------LAUNCHED-------------------------------------->
+                        <div class="mob-launched crt-top">
+                            <section class="criteria1">
+                                <h2>LAUNCHED WITHIN</h2>
+                            </section>
+                            <section class="mob-launched-list crt-sub">
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            1 MONTHS
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            2 MONTHS
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            3 MONTHS
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            4 MONTHS
                                         </label>
                                     </li>
                                 </ul>
@@ -522,6 +562,96 @@
                                         <label>
                                             <input type="checkbox">
                                             11 RED VELVET CAKE
+                                        </label>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+ <!-- ---------------------------------------------CPU speed------------------------------------->
+                        <div class="mob-processor-speed crt-top">
+                            <section class="criteria1">
+                                <h2>PROCESSOR SPEED</h2>
+                            </section>
+                            <section class="mob-proc-speed-list crt-sub">
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                             1.2 GHZ & ABOVE
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            1.4 GHZ & ABOVE
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            2 GHZ & ABOVE
+                                        </label>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+ <!-- ---------------------------------------------SYSTEM ON CHIP------------------------------------->
+                        <div class="mob-processor-speed crt-top">
+                            <section class="criteria1">
+                                <h2>SYSTEM ON CHIP</h2>
+                            </section>
+                            <section class="mob-chip-list crt-sub">
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                             SNAPDRAGON
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            MEDIATEK
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            EXYNOS
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            KIRIN
+                                        </label>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+ <!-- ---------------------------------------------PROCESSOR CORES------------------------------------->
+                        <div class="mob-cpu crt-top">
+                            <section class="criteria1">
+                                <h2>PROCESSOR CORES</h2>
+                            </section>
+                            <section class="mob-processor-list crt-sub">
+                                <ul>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                             OCTA CORE
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                             QUARD CORE
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            DECA CORE
                                         </label>
                                     </li>
                                 </ul>
