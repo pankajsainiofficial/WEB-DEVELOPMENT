@@ -166,7 +166,7 @@ function startprogressbar(){
 
 // function buttonsoption(){
 //     $('.buttonsoption').on("click",()=>{
-//         console.log($(this).href.css({
+//         console.log($(this).href.css({pankaj live audio nii  ho rea   dss de 
 //             "display" : "block"
 //         }));
 //     })
