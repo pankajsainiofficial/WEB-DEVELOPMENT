@@ -139,7 +139,7 @@ tbody tr {
 }
 /* ----------------vitalform------------------- */
 #vitalform{
-    display: none;
+    /* display: none; */
     border: 1px solid violet;
 }
 .addproductfix li,.affiliatebox li, .discriptionbox li, .productprice li, .productspower li, .extradetails li{
@@ -165,9 +165,9 @@ tbody tr {
 }
 
 /* ----------affiliatelink--------- */
-#affiliatelink {
+/* #affiliatelink {
     display: none;
-}
+} */
 .affiliatebox ul , .discriptionbox ul{
     text-align: center;
     height: 200px;
@@ -176,9 +176,9 @@ tbody tr {
     justify-content: center;
 }
 /* ---------- Admin Discription --------- */
-#admindiscription {
+/* #admindiscription {
     display: none;
-}
+} */
 .discriptionbox ul {
     height: 250px !important;
 }
@@ -197,18 +197,15 @@ tbody tr {
     max-height: 180px;
 }
 /* <!-- ---------------------------product-price-&-sales-------------------------- --> */
-#adminproductprice {
+/* #adminproductprice {
     display: none;
-}
+} */
 .productprice input::-webkit-outer-spin-button ,
 .productprice input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 /* -------------------power---------- */
-#adminproductpower {
-    display: none;
-}
-#adminproductextra {
+.hideunhide:not(.active) {
     display: none;
 }

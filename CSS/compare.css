@@ -5,10 +5,11 @@
 /* --------------------sub-compare--------------- */
 #sub-compare{
     padding: 50px 100px 50px 100px;
+    display: flex;
 }
 /* ----------------address-bar-------------- */
 #address-bar h3{
-    width: 100%;
+    width: 96%;
     display: block;
     border: 1px solid red;
     margin: 5px;
@@ -106,3 +107,34 @@
 }
 
 
+/* -----------------------product detail------------------- */
+.product-detail{
+    margin-left: 15px;
+}
+.mobile-detail{
+    border: 2px solid red;
+    height: 1200px;
+    width: 1000px;
+}
+.mobphoto img{
+    height: 250px;
+}
+.mobl{
+    border: 1px solid blue;
+    display: flex;
+}
+.border{
+    border: 1px solid blue;
+}
+.mob-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+    width: 32rem;
+}
+.mob-info-sub  {
+    margin: 10px;
+    padding: 5px;
+}
+.mob-info-sub ul{
+    list-style: inside;
+}

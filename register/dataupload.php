@@ -75,14 +75,14 @@
                                 <div class="datanavbar">
                                     <ul>
                                         <li>
-                                            <span class="buttonsoption"  onclick="buttonsoption('#vitalform');">Vital Info.</a></span>
+                                            <span class="buttonsoption">Vital Info.</a></span>
                                         </li>
 
-                                        <li><span class="buttonsoption" onclick="buttonsoption('#affiliatelink');">Affiliate Link</span></li>
-                                        <li><span class="buttonsoption" onclick="buttonsoption('#admindiscription');">Description</span></li>
-                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductprice');">Prices and offers</span></li>
-                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductpower');">Power Details</span></li>
-                                        <li><span class="buttonsoption" onclick="buttonsoption('#adminproductextra');">More Details</span></li>
+                                        <li><span class="buttonsoption" >Affiliate Link</span></li>
+                                        <li><span class="buttonsoption" >Description</span></li>
+                                        <li><span class="buttonsoption" >Prices and offers</span></li>
+                                        <li><span class="buttonsoption" >Power Details</span></li>
+                                        <li><span class="buttonsoption" >More Details</span></li>
                                     </ul>
                                 </div>
                                 <!-- ----------------vitalform-------------------  -->
@@ -226,15 +226,54 @@
                                 <div id="adminproductextra" class="hideunhide">
                                     <div class="extradetails">
                                         <ul>
-                                            <li>Extra
-                                                <input list="batterytype" type="text" name="amaprice" placeholder="Type of battery">
-                                                <datalist id="batterytype">
-                                                <option value="Testing Data">
-                                                <option value="Testing Data 2">
+                                            <li>Sim type
+                                                <input list="simtype" type="text" name="amaprice" placeholder="Type of sim">
+                                                <datalist id="simtype">
+                                                <option value="Dual Sim - GSM-GSM">
                                             </datalist>
                                             </li>
-                                            <li>Testing
-                                                <input type="text" name="flipprice" placeholder="Size of Battery">
+                                            <li>Fingerprint Sensor
+                                                <input list="fingersensor" type="text" name="flipprice" placeholder="Availabity of fingerprint Sensor">
+                                                <datalist id="fingersensor">
+                                                    <option value="Rear sensor">Rear sensor</option>
+                                                    <option value="under Display">under Display</option>
+                                                    <option value="Side Button">Side Button</option>
+                                                <datalist>
+                                            </li>
+                                            <li>Device Type
+                                                <input list="devicetype" ype="text" name="flipprice" placeholder="Smartphone or feature phone">
+                                                <datalist id="devicetype">
+                                                    <option value="Feature phone">feature phone</option>
+                                                    <option value="Smartphone">Smartphone</option>
+                                                    
+                                                <datalist>
+                                            </li>
+                                            <li>Release Date
+                                                <input type="date" name="flipprice" placeholder="Release date of the product">
+                                            </li>
+                                            <li>Weight(g)
+                                                <input type="number" name="flipprice" placeholder="Weight of the product in (g)">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
+                                            </li>
+                                            <li>Testing 2
+                                                <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">
                                             </li>
                                             <li>Testing 2
                                                 <input type="text" name="flipprice" placeholder="Charging eg : 65w wrap charging">

@@ -19,20 +19,19 @@
     <div id="homepage">
         <?php
             require "header.php";
-        ?>
+            ?>
+            <div id="address-bar">
+                <h3>Home > Mobiles</h3>
+            </div>
         <!-- ------------------------------------------------------------------------
 ------------------------------------Main page compare------------------------       
 ------------------------------------------------------------------------- -->
         <div id="main-compare">
             <div id="sub-compare">
-                <div id="address-bar">
-                    <h3>Home > Mobiles</h3>
-                </div>
                 <!-- ----------------------------------------------product-filter---------------------------------- -->
                 <div id="product-filter">
                     <div class="filter">
                         <div class="filter-heading">
-                            <!-- <i class="fas fa-filter"></i> -->
                             <h2> Filter Result</h2>
                         </div>
                         <div class="search-criteria crt-top">
@@ -857,16 +856,85 @@
                                     </li>
                                 </ul>
                             </section>  
-                        </div>                        
-                        <!-- ------------------------------------filter-------------------------------------------- -->
+                        </div> 
+<!-- ------------------------------------filter-------------------------------------------- -->
                     </div>   
-                    <!-- =------------------------------------product-filter--------------------------------- -->
+   <!-- =------------------------------------product-filter--------------------------------- -->
                 </div>
-                <!----------------------------------------------sub-compare---------------------------------------------->
+
+
+
+ <!-- -------------------------------------------MOBILE DETAIL-----------------------                -->
+                <div class="product-detail">
+                    <div class="mobile-detail">
+                        <div class="filter-heading">
+                            <h2> Mobile Phones</h2>
+                         </div>
+                        <div class="mob-details border">
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/MI-10-I.png" alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> MI 10 I</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2>26,000</h2>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+ <!-- -----------------------------------mobile detail------------------------                -->
+                </div>
+  <!----------------------------------------------sub-compare---------------------------------------------->
             </div>
-            <!-- ----------------------------------------------Main page compare--------------------------->
+  <!-- ----------------------------------------------Main page compare--------------------------->
         </div>
-        <!--------------------------------------------------------homepage----------------------------------->
+ <!--------------------------------------------------------homepage----------------------------------->
     </div>
 </body>
 

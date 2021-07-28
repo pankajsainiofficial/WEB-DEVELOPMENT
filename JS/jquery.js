@@ -3,8 +3,9 @@ $(document).ready(function () {
     startcircle();
     startCounter();
     startprogressbar();
-    buttonsoption()
+    buttonsoption();
     target();
+
     $(".close").on('click', ((e) => {
         hideitem();
         e.preventDefault();
@@ -163,21 +164,13 @@ function startprogressbar(){
     }};
 
 // ---------------------buttonsoption------------
-
-// function buttonsoption(){
-//     $('.buttonsoption').on("click",()=>{
-//         console.log($(this).href.css({pankaj live audio nii  ho rea   dss de 
-//             "display" : "block"
-//         }));
-//     })
-// }
-
-function buttonsoption(a){
-    $(a).css({
-        "display":"block"
-    });
+function buttonsoption(){
+$('.buttonsoption').on('click', function() {
+    var cur = $('.buttonsoption').index($(this));
+    $('.hideunhide').removeClass('active');
+    $('.hideunhide').eq(cur).addClass('active');
+  });
 };
-
 
 
 // ------------------target----------------
