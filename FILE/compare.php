@@ -13,6 +13,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="/JS/jquery-3.6.0.min.js"></script>
     <script src="/JS/jquery.js"></script>
+    <script src="/JS/header.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                     <div class="filter">
                         <div class="filter-heading">
                             <h2> Filter Result</h2>
-                        </div>
+                        </div><hr>
                         <div class="search-criteria crt-top">
                             <section class="criteria1">
                                 <h2>REFINE RESULT</h2>
@@ -867,9 +868,26 @@
  <!-- -------------------------------------------MOBILE DETAIL-----------------------                -->
                 <div class="product-detail">
                     <div class="mobile-detail">
-                        <div class="filter-heading">
+                        <div class="filter-head">
                             <h2> Mobile Phones</h2>
                          </div>
+                        <div class="sortsection">
+                            <h3>Showing: 1-12 Result from 3000 Mobiles</h3>
+                            <div class="sortby">
+                                <section>
+                                    <h3>Sort By:</h3>
+                                </secttion>
+                                <section class="btn-grad">
+                                    <h4>Popularity</h4>
+                                </section>
+                                <section class="btn-grad">
+                                    <h4>Price</h4>
+                                </section>
+                                <section class="btn-grad">
+                                    <h4>Date</h4>
+                                </section>
+                            </div>    
+                        </div>
                         <div class="mob-details border">
                             <div class="mobl">
                                 <div class="mobphoto">
@@ -923,12 +941,430 @@
                                     </div>
                                 </div>
                                 <div class="mobprice border">
-                                    <h2>26,000</h2>
+                                    <h2> Rs 26,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div> 
                             </div>
+
+
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/ONEPLUS-8PRO.png" alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> ONE PLUS 8 PRO</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 54,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+
+
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/ONEPLUS-NORD9.png" alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> ONE PLUS NORD 9</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 20,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+
+
+                            
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/MI-10-I.png " alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> SAMSUNG S21</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 19,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/ONEPLUS-8PRO.png" alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> ONE PLUS 8 PRO</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 54,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+
+
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/ONEPLUS-NORD9.png" alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> ONE PLUS NORD 9</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 20,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+
+
+                            
+                            <div class="mobl">
+                                <div class="mobphoto">
+                                    <img src="/photos/MI-10-I.png " alt="ok">
+                                </div>
+                                <div class="mobspec border">
+                                    <h2> SAMSUNG S21</h2>
+                                    <div class="mob-info">
+                                        <section class="mob-info-sub">
+                                            <h3>Memory</h3>
+                                            <ul>
+                                                <li>6 GB RAM</li>
+                                                <li>128 GB Inbuit</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Processor</h3>
+                                            <ul>
+                                                <li>Snapdragon 750G</li>
+                                                <li>Octa Core,2.2 GHz</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Display</h3>
+                                            <ul>
+                                                <li>6.67 Inch</li>
+                                                <li>1080 x 2400 px</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Camera</h3>
+                                            <ul>
+                                                <li>108 MP Quad</li>
+                                                <li>16 MP Front</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Connectivity</h3>
+                                            <ul>
+                                                <li>3G,4G,5G,Volte</li>
+                                                <li>Wifi, IR Blaster</li>
+                                            </ul>
+                                        </section>
+                                        <section class="mob-info-sub">
+                                            <h3>Battery</h3>
+                                            <ul>
+                                                <li>4820 mAh</li>
+                                                <li>Fast Charging</li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="mobprice border">
+                                    <h2> Rs 19,000</h2>
+                                    <div class="button-compare">
+                                        <div class="view_pro elec-compare">
+                                            <p>See Prices</p>
+                                        </div>
+                                        <div class="compare elec-compare">
+                                            <p>
+                                                <i class="fas fa-plus"></i>Compare
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+<!-- ------------------------------------mob-details-------------------------                             -->
                         </div>
+ <!-- -----------------------------------------mobile detail------------------------                        -->
                     </div>
- <!-- -----------------------------------mobile detail------------------------                -->
+ <!-- -----------------------------------product detail------------------------                -->
                 </div>
   <!----------------------------------------------sub-compare---------------------------------------------->
             </div>

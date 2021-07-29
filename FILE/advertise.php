@@ -11,6 +11,7 @@
     <!-- <link rel="stylesheet" href="/css/signup.css">
     <script src="/JS/jquery-3.6.0.min.js"></script>
     <script src="/JS/jquery.js"></script> -->
+    <script src="/JS/header.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Price pare advertise</title>

@@ -196,17 +196,17 @@ body {
     display: flex;
     height: -webkit-fill-available;
 }
-#nav_list> ul> li> a {
+#nav_list> ul a {
     text-decoration: none;
     color: #000000;
     cursor: pointer;
 }
-#nav_list> ul> li:hover {
+.active, #nav_list> ul> a:hover {
     background-color: skyblue;
 }
-#nav_list > ul >li {
+#nav_list > ul > a{
         margin: 0px 10px;
-        padding: 0px !important;
+        padding: 10px !important;
         white-space: nowrap;
         width: 90px;
         text-align: center;
@@ -215,7 +215,7 @@ body {
     background: royalblue;
     color: yellow;
 }
-.nav-fix ul li {
+.nav-fix ul a {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -224,6 +224,33 @@ body {
 }
 .nav-fix li {
     font-size: 16px;
+    font-family: monospace;
+    white-space: nowrap;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
+}
+
+/* -------------------header----scroll------- */
+
+.animscroll {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    transition: background 1s;
+    background: #fff;
+    box-shadow: 1.5px 1.5px 10px rgba(219, 214, 214, 0.658);
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

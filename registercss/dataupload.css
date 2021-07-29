@@ -96,14 +96,23 @@ tbody tr {
 .dataproducts {
     border: 1px solid blue;
     height: 500px;
+    position: relative;
     overflow: hidden;
+}
+#stopscrollform {
+    height: 440px;
     overflow-y: scroll;
+}
+.hideunhide {
+    position: relative;
 }
 .datanavbar {
     border: 1px solid red;
     height: 60px;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     color: #fff;
+    /* width: 100%; */
+    /* position: absolute; */
 }
 .datanavbar span {
     background: rgb(155, 113, 113);
@@ -145,6 +154,7 @@ tbody tr {
 .addproductfix li,.affiliatebox li, .discriptionbox li, .productprice li, .productspower li, .extradetails li{
     list-style: none;
     margin: 20px;
+    font-family: monospace;
 }
 #vitalform select option {
     height: 50px;
@@ -209,3 +219,33 @@ tbody tr {
 .hideunhide:not(.active) {
     display: none;
 }
+
+/* -------------------------Extra-Details---------------- */
+#adminproductextra h2{
+    text-align: center;
+    font-family: monospace;
+}
+
+/* ------------------------sticky-header------------------- */
+
+
+.sticky {
+    position: relative;
+    z-index: 9999;
+    transition: background 1s;
+    /* background: #fff; */
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0/12);
+    animation-duration: 1.2s;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }  
