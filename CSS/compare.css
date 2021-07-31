@@ -21,12 +21,13 @@
 
 }
 .filter{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: left;
     width: 300px;
     background: antiquewhite;
     /* height: 1400px; */
     padding: 2PX;
+    box-shadow: 2px 3px 3px 1px lightgrey;
 }
 .filter-heading{
     /* border: 1px solid black; */
@@ -43,14 +44,17 @@
     text-shadow: 1px 1px black;
 }
 .filter-head{
-    font-size: 35px;
+    font-size: 32px;
     font-family: system-ui;
     display: block;
     /* border: 1px solid; */
-    margin-left: 6px;
-  background: -webkit-linear-gradient(#eee, #333);
+    padding-left: 6px;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px black;
+    color: rgb(46, 40, 29);
+  /* background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 
     
 }
@@ -119,7 +123,7 @@
     margin-left: 15px;
 }
 .mobile-detail{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 1200px; */
     width: 950px;
 }
@@ -133,8 +137,12 @@
 .mobphoto img{
     height: 190px;
 }
+.mobphoto{
+    border: 2px solid white;
+    background: lavenderblush;
+}
 .mobl{
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     display: flex;
     margin-top: 12px;
     /* background-color: rgb(234,238,245); */
@@ -167,7 +175,7 @@
     list-style: inside;
 }
 .mobprice{
-    border: 1px solid red;
+    border: 2px solid white;
 }
 .button-compare {
     /* border: 1px solid yellow; */
@@ -197,7 +205,7 @@
     box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
 }
 .mobprice{
-    padding: 38px;
+    padding: 37px;
     /* background-color: #F5F5F5; */
     background-color: rgb(234,238,245);
 }
@@ -209,11 +217,12 @@
 .sortsection{
     display: flex;
     /* border: 1px solid red; */
-    border: 1px solid red;
-    padding: 2px 7px 2px 7px;
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    /* border: 1px solid red; */
+    padding: 1px 7px 1px 7px;
     justify-content: space-between;
 }
-.sortsection h3{
+.sortsection h3{    
     font-family: system-ui;
     /* border: 1px solid red; */
     display: flex;
@@ -245,7 +254,7 @@
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 0 0 20px #eee;
+   /* box-shadow: 0 0 20px #eee; */
    border-radius: 7px;
    display: block;
  }

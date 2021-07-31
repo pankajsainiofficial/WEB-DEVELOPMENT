@@ -16,8 +16,8 @@ window.addEventListener ("scroll", ()=>{
 // Get all buttons with class="btn" inside the container
 
 // Loop through the buttons and add the active class to the current/clicked button
-setTimeout(runbtnsactive, 100);
-function runbtnsactive() {
+// setTimeout(runbtnsactive, 100);
+// function runbtnsactive() {
 var header = document.getElementById("hotlist");
 var btns = header.getElementsByClassName("btn1");
 for (var i = 0; i < btns.length; i++) {
@@ -26,4 +26,4 @@ for (var i = 0; i < btns.length; i++) {
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
    })}
-};
+// };

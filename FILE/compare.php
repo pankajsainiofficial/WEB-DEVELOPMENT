@@ -869,7 +869,7 @@
                 <div class="product-detail">
                     <div class="mobile-detail">
                         <div class="filter-head">
-                            <h2> Mobile Phones</h2>
+                            <h2> Mobile Phones</h2><hr>
                          </div>
                         <div class="sortsection">
                             <h3>Showing: 1-12 Result from 3000 Mobiles</h3>
@@ -944,7 +944,7 @@
                                     <h2> Rs 26,000</h2>
                                     <div class="button-compare">
                                         <div class="view_pro elec-compare">
-                                            <p>See Prices</p>
+                                           <a href="subcompare.php"> <p>See Prices</p></a>
                                         </div>
                                         <div class="compare elec-compare">
                                             <p>
