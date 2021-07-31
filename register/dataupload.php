@@ -34,16 +34,17 @@
             <div class="uploaddata adminblock">
                 <form action="" method="post" enctype="multipart/form-data">
                     <div class="mainuploadsection">
-                        <div id="drop_file_zone" ondrop="upload_file(event)" ondragover="dragoverstart(event);" ondragleave="dragleavestart(event);">
+                        <div id="drop_file_zone" ondrop="upload_file(event)" ondragover="dragoverstart(event);"
+                            ondragleave="dragleavestart(event);">
                             <div id="drag_upload_file">
                                 <p class="paragraphhere">Drag and Drop to upload file</p>
                                 <p>or</p>
                                 <p><input type="button" value="Select File(s)" onclick="file_explorer(event);"></p>
 
-                                <input id="selectfile" type="file" multiple/>
+                                <input id="selectfile" type="file" multiple />
                             </div>
                             <div id="fileheredrop" class="filesuploaded">
-                               
+
                             </div>
                         </div>
                         <!-- ----------------------------------datasection--------------------------- -->
@@ -68,10 +69,7 @@
                                 <div class="dataproducts">
                                     <div id="scrolltopbutton" class="datanavbar">
                                         <ul>
-                                            <li>
-                                                <span class="buttonsoption">Vital Info.</a></span>
-                                            </li>
-
+                                            <li><span class="buttonsoption">Vital Info.</a></span></li>
                                             <li><span class="buttonsoption">Affiliate Link</span></li>
                                             <li><span class="buttonsoption">Description</span></li>
                                             <li><span class="buttonsoption">Prices and offers</span></li>
@@ -101,11 +99,8 @@
                                                 <li>Digital storage capacity
                                                     <input name="digistorage" placeholder="enter the product name">
                                                 </li>
-                                                <li>Memory
-                                                    <input name="memory" placeholder="enter the product name">
-                                                </li>
                                                 <li>Operating System
-                                                    <select name="operating system">
+                                                    <select name="operatingsystem">
                                                         <option value="" disabled selected>Android</option>
                                                         <option value="ios 7">Ios7</option>
                                                         <option value="ios 8">Ios7</option>
@@ -130,13 +125,13 @@
                                                     </select>
                                                 </li>
                                                 <li>Wireless information
-                                                    <input name="modelname" placeholder="enter the product name">
+                                                    <input name="wireless" placeholder="enter the product name">
                                                 </li>
                                                 <li>Warrenty Discription
-                                                    <input name="modelname" placeholder="enter the product name">
+                                                    <input name="warrenty" placeholder="enter the product name">
                                                 </li>
                                                 <li>Cellular Technology
-                                                    <input list="cellular" name="modelname"
+                                                    <input list="cellular" name="cellulartech"
                                                         placeholder="enter the product name">
                                                     <datalist id="cellular">
                                                         <option value="5G">
@@ -147,10 +142,10 @@
                                                     </datalist>
                                                 </li>
                                                 <li>Ram Size
-                                                    <input name="modelname" placeholder="enter the product name">
+                                                    <input name="ramsize" placeholder="enter the product name">
                                                 </li>
                                                 <li>Display Type
-                                                    <input name="modelname" placeholder="enter the product name">
+                                                    <input name="displaytype" placeholder="enter the product name">
                                                 </li>
 
                                             </ul>
@@ -159,8 +154,20 @@
                                         <div id="affiliatelink" class="hideunhide">
                                             <div class="affiliatebox">
                                                 <ul>
-                                                    <li>Affliate link
-                                                        <input name="AffiliateLink"
+                                                    <li>Amazon Affliate link
+                                                        <input name="amaAffiliateLink"
+                                                            placeholder="Paste Affiliate link here">
+                                                    </li>
+                                                    <li>Flipkart Affliate link
+                                                        <input name="flipAffiliateLink"
+                                                            placeholder="Paste Affiliate link here">
+                                                    </li>
+                                                    <li>TataCliq Affliate link
+                                                        <input name="tataAffiliateLink"
+                                                            placeholder="Paste Affiliate link here">
+                                                    </li>
+                                                    <li>ebay Affliate link
+                                                        <input name="ebayAffiliateLink"
                                                             placeholder="Paste Affiliate link here">
                                                     </li>
                                                 </ul>
@@ -209,7 +216,7 @@
                                             <div class="productspower">
                                                 <ul>
                                                     <li>Type
-                                                        <input list="moredetails" type="text" name="amaprice"
+                                                        <input list="moredetails" type="text" name="typebattery"
                                                             placeholder="Type of battery">
                                                         <datalist id="moredetails">
                                                             <option value="Removeable battery">
@@ -217,11 +224,11 @@
                                                         </datalist>
                                                     </li>
                                                     <li>Size
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="sizebattery"
                                                             placeholder="Size of Battery">
                                                     </li>
                                                     <li>Charging
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="charging"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                 </ul>
@@ -234,14 +241,14 @@
                                                 <h2>GENERAL</h2>
                                                 <ul>
                                                     <li>Sim type
-                                                        <input list="simtype" type="text" name="amaprice"
+                                                        <input list="simtype" type="text" name="simtype"
                                                             placeholder="Type of sim">
                                                         <datalist id="simtype">
                                                             <option value="Dual Sim - GSM-GSM">
                                                         </datalist>
                                                     </li>
                                                     <li>Device Type
-                                                        <input list="devicetype" ype="text" name="flipprice"
+                                                        <input list="devicetype" ype="text" name="devicetype"
                                                             placeholder="Smartphone or feature phone">
                                                         <datalist id="devicetype">
                                                             <option value="Feature phone">feature phone</option>
@@ -249,154 +256,154 @@
                                                             <datalist>
                                                     </li>
                                                     <li>Release Date
-                                                        <input type="date" name="flipprice"
+                                                        <input type="date" name="releasedate"
                                                             placeholder="Release date of the product">
                                                     </li>
                                                     <li>Dual Sim
-                                                        <input list="dualsim" type="text" name="flipprice"
+                                                        <input list="yesnot" type="text" name="dualsim"
                                                             placeholder="Release date of the product">
                                                     </li>
-                                                    <datalist id="dualsim">
-                                                        <option value="Yes">Yes</option>
-                                                        <option value="No">No</option>
-                                                    </datalist>
                                                 </ul>
                                                 <h2>DESIGN</h2>
                                                 <ul>
                                                     <li>Dimensions
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="dimention"
+                                                            placeholder="lenght * breath * height in mm">
                                                     </li>
                                                     <li>Weight(g)
-                                                        <input type="number" name="flipprice"
+                                                        <input type="number" name="proweight"
                                                             placeholder="Weight of the product in (g)">
                                                     </li>
                                                 </ul>
                                                 <h2>Display</h2>
                                                 <ul>
                                                     <li>Type
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="displaytype"
+                                                            placeholder="Type of the display">
                                                     </li>
                                                     <li>Touch
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="Touchdisplay"
+                                                            placeholder="Touchscreen yes or not">
                                                     </li>
                                                     <li>Size
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="displaysize"
+                                                            placeholder="Size of the Display">
                                                     </li>
                                                     <li>Aspect Ratio
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="ratiodisplay"
+                                                            placeholder="Aspect Ratio of display to product">
                                                     </li>
                                                     <li>PPI
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="ppidisplay"
+                                                            placeholder="pixel per inch of display">
                                                     </li>
                                                     <li>Glass Type
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="glassdisplay"
+                                                            placeholder="Type of the display glass">
                                                     </li>
                                                     <li>Features
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="featuredisplay"
+                                                            placeholder="Explained Feature of Display">
                                                     </li>
                                                     <li>Notch
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="displaynotch"
+                                                            placeholder="Notch type with prefix (yes/no)">
                                                     </li>
                                                 </ul>
                                                 <h2>Memory</h2>
                                                 <ul>
                                                     <li>Ram
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="ramsize"
+                                                            placeholder="Enter the size of the ram">
                                                     </li>
                                                     <li>Storage
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="romsize"
+                                                            placeholder="Rom size / storage">
                                                     </li>
                                                     <li>Storage Type
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="romtype"
+                                                            placeholder="Storage type/ Rom type">
                                                     </li>
                                                     <li>card Slot
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input list="cardslot" type="text" name="cardslot"
+                                                            placeholder="dedicated or hybrid">
                                                     </li>
+                                                    <datalist id="cardslot">
+                                                        <option value="Dedicated">Dedicated</option>
+                                                        <option value="Hybrid">Hybrid</option>
+                                                    </datalist>
                                                 </ul>
                                                 <h2>Connectivity</h2>
                                                 <ul>
                                                     <li>Gprs
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input list="yesnot" type="text" name="connectgprs"
+                                                            placeholder=" Gprs available or not">
                                                     </li>
                                                     <li>edge
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="connectedge"
+                                                            placeholder="edge available or not">
                                                     </li>
                                                     <li>3G
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="connect3g"
+                                                            placeholder="3g available or not">
                                                     </li>
                                                     <li>4G
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="connect4g"
+                                                            placeholder="4g available or not">
                                                     </li>
                                                     <li>5G
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="connect5g"
+                                                            placeholder="5g available or not">
                                                     </li>
                                                     <li>VoLTE
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="connectvolte"
+                                                            placeholder="Volte type followed by yes">
                                                     </li>
                                                     <li>Wifi
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="connectwifi"
+                                                            placeholder="type wifi information here">
                                                     </li>
                                                     <li>Bluetooth
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="connectbluetooth"
+                                                            placeholder="bluetooth information followed by if yes">
                                                     </li>
                                                     <li>USB
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="connectusb"
+                                                            placeholder="usb information here">
                                                     </li>
                                                     <li>USB Feature
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="usbfeatureconnect"
+                                                            placeholder="usb features">
                                                     </li>
                                                 </ul>
                                                 <h2>Camera</h2>
                                                 <ul>
                                                     <li>Rear Camera
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="rearcamera"
+                                                            placeholder="Rear camera information">
                                                     </li>
                                                     <li>Feature
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="camerafeature"
+                                                            placeholder="Feature of the camera">
                                                     </li>
                                                     <li>Video Recording
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="cameraideo"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                     <li>Flash
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="cameraflash"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                     <li>Front Camera
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="frontcamera"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                     <li>Front Video
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="frontvideo"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                     <li>Recording
-                                                        <input type="text" name="flipprice"
+                                                        <input type="text" name="camerarecording"
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
 
@@ -498,6 +505,10 @@
                                                             placeholder="Charging eg : 65w wrap charging">
                                                     </li>
                                                 </ul>
+                                                <datalist id="yesnot">
+                                                    <option value="Yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                    <datalist>
                                             </div>
                                         </div>
                                     </div>
