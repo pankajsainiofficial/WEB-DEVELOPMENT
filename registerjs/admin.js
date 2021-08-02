@@ -52,13 +52,13 @@ function showFile() {
     for (let iterator of file) {
         filetype = iterator.type;
         filetype.toLowerCase();
-        console.log(filetype);
         let validextention = ["image/jpeg", "image/jpg", "image/png" ];
         if(validextention.includes(filetype)){
             let filereader  = new FileReader();
-            filereader.onload = ()=>{
+            filereader.onload = (e)=>{
+                console.log(e);
                 let fileUrl =filereader.result;
-                let ImgTag = `<img src="${fileUrl}" alt="">`;
+                var ImgTag= `<img type="file" src="${fileUrl}" alt="">`;
                 files.innerHTML += ImgTag;
             }
             filereader.readAsDataURL(iterator);

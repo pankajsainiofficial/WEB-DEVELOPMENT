@@ -30,7 +30,7 @@
             <?php   
                 include "dashboard.php"
             ?>
-        <div id="adminwelcome" class="adminblock">
+            <div id="adminwelcome" class="adminblock">
                 <div class="adminwelcome">
                     <span>
                         <img src="/photos/welcome.png" alt="Welcome img">
@@ -231,17 +231,19 @@
                                 <th>Status</th>
                                 <th>Purchared</th>
                                 <th>Activity</th>
+                            </tr>
                         </thead>
                         <tbody style="line-height: 60px">
-                            <td>
-                                <img src="/photos/user.gif" alt="">
-                                Pankaj saini
-                            </td>
-                            <td>Samsung 9000+ Pro Max</td>
-                            <td>Punjab</td>
-                            <td><progress class="elementbar" value="50" max="100"></progress></td>
-                            <td>ok Report</td>
-                            <td>Ok report</td>
+                            <tr>
+                                <td>
+                                    <img src="/photos/user.gif" alt="">
+                                    Pankaj saini
+                                </td>
+                                <td>Samsung 9000+ Pro Max</td>
+                                <td>Punjab</td>
+                                <td><progress class="elementbar" value="50" max="100"></progress></td>
+                                <td>ok Report</td>
+                                <td>Ok report</td>
                             </tr>
                             <tr>
                                 <td>
@@ -415,10 +417,10 @@
 
 
             <!-- ----------------------------outer-div-container-padding----------------------------- -->
-            </div>
         </div>
+    </div>
     <!-- ---------------------------------------copyright---------------------- -->
-        <?php
+    <?php
             include "adminfooter.php"
         ?>
     <!-- </div> -->

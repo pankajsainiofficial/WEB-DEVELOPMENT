@@ -6,6 +6,11 @@
     }
     // echo 'Welcome :-'. $_SESSION['username'];
 ?>
+<?php
+    if(isset($_POST['submit'])){
+        
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -248,7 +253,7 @@
                                                         </datalist>
                                                     </li>
                                                     <li>Device Type
-                                                        <input list="devicetype" ype="text" name="devicetype"
+                                                        <input list="devicetype" type="text" name="devicetype"
                                                             placeholder="Smartphone or feature phone">
                                                         <datalist id="devicetype">
                                                             <option value="Feature phone">feature phone</option>
@@ -387,122 +392,102 @@
                                                             placeholder="Feature of the camera">
                                                     </li>
                                                     <li>Video Recording
-                                                        <input type="text" name="cameraideo"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="cameravideo"
+                                                            placeholder="video recording @ eg :720p etc">
                                                     </li>
                                                     <li>Flash
-                                                        <input type="text" name="cameraflash"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="cameraflash"
+                                                            placeholder="Yes or no followed by Led/xenon">
                                                     </li>
                                                     <li>Front Camera
                                                         <input type="text" name="frontcamera"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                            placeholder="Font camera information">
                                                     </li>
-                                                    <li>Front Video
+                                                    <li>Front Video Recording
                                                         <input type="text" name="frontvideo"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                            placeholder="Front video recording @ ">
                                                     </li>
-                                                    <li>Recording
-                                                        <input type="text" name="camerarecording"
-                                                            placeholder="Charging eg : 65w wrap charging">
-                                                    </li>
-
                                                 </ul>
                                                 <h2>Techinical</h2>
                                                 <ul>
                                                     <li>Chipset
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="prochipset"
+                                                            placeholder="processor chipset information ">
                                                     </li>
                                                     <li>C.P.U.
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="procpu"
+                                                            placeholder="Clockspeed of the cpu and no of cores">
                                                     </li>
                                                     <li>Core Details
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="procoredetails"
+                                                            placeholder="Cores detailed information">
                                                     </li>
                                                     <li>G.P.U.
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="progpu"
+                                                            placeholder="product graphics card infromation">
                                                     </li>
                                                     <li>Java
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="javasupported"
+                                                            placeholder="in yes or not">
                                                     </li>
                                                     <li>Browser
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="browsupport"
+                                                            placeholder="browser available or not">
                                                     </li>
                                                 </ul>
                                                 <h2>Extra</h2>
                                                 <ul>
                                                     <li>Fingerprint Sensor
-                                                        <input list="fingersensor" type="text" name="flipprice"
+                                                        <input list="fingersensor" type="text" name="profingerprint"
                                                             placeholder="Availabity of fingerprint Sensor">
                                                         <datalist id="fingersensor">
                                                             <option value="Rear sensor">Rear sensor</option>
                                                             <option value="under Display">under Display</option>
                                                             <option value="Side Button">Side Button</option>
-                                                            <datalist>
+                                                        <datalist>
                                                     </li>
                                                     <li>GPS
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="progpsavail"
+                                                            placeholder="Gps availability in yes or not">
                                                     </li>
                                                     <li>Face Unlock
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="faceunlock"
+                                                            placeholder="face unlock available or not">
                                                     </li>
                                                     <li>Sensors
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" name="prosensors"
+                                                            placeholder="all sensors of product">
                                                     </li>
                                                     <li>3.5mm Headphone Jack
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="projackhead"
+                                                            placeholder="headphone jack availabilty">
                                                     </li>
-                                                    <li>Extra
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                    <li>Splash Resistant
+                                                        <input type="text" list="yesnot" name="splashresist"
+                                                            placeholder="Splash resistant or not">
                                                     </li>
                                                 </ul>
                                                 <h2>Multimedia</h2>
                                                 <ul>
                                                     <li>Email
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="emailavail"
+                                                            placeholder="availabilty of email (yes or not)">
                                                     </li>
                                                     <li>Music
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="musicavail"
+                                                            placeholder="availabilty of music (yes or not)">
                                                     </li>
                                                     <li>Video
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="videoavail"
+                                                            placeholder="availabilty of email (yes or not)">
                                                     </li>
                                                     <li>FM Radio
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="fmradio"
+                                                            placeholder="availabilty of Fm Radio (yes or not)">
                                                     </li>
                                                     <li>Document Reader
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
-                                                    </li>
-                                                </ul>
-                                                <h2>Battery</h2>
-                                                <ul>
-                                                    <li>Type
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
-                                                    </li>
-                                                    <li>Size
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
-                                                    </li>
-                                                    <li>Fast Charging
-                                                        <input type="text" name="flipprice"
-                                                            placeholder="Charging eg : 65w wrap charging">
+                                                        <input type="text" list="yesnot" name="docreader"
+                                                            placeholder="availabilty of doc reader (yes or not)">
                                                     </li>
                                                 </ul>
                                                 <datalist id="yesnot">

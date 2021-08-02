@@ -1,5 +1,5 @@
 <?php
-    include "connection.php"
+    require "function.php";
 ?>
 <div id="headerscroll">
     <div id="header">
