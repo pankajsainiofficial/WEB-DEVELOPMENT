@@ -2,13 +2,13 @@
     $showAlert = false;
     $showError = false;
     if($_SERVER["REQUEST_METHOD"] == "POST"){
-        include 'connection.php';
+        include 'function.php';
         $username = $_POST['username'];
         $emailaddress = $_POST['Emailaddress'];
         $password =$_POST['pass'];
         $cpassword = $_POST['confirmpass'];
         $exitssql ="SELECT * FROM `users` WHERE `emailaddress` = '$emailaddress'";
-        $result = mysqli_query($conn, $exitssql);
+        $result = mysqli_query($db->conn, $exitssql);
         $num = mysqli_num_rows($result);
         if($num > 0){
             $showError = "Email address Already Exists";
@@ -17,7 +17,7 @@
             if($password==$cpassword){
                 $hash = password_hash($password, PASSWORD_DEFAULT);
                 $sqli= "INSERT INTO `users` (`username`, `emailaddress`, `password`, `admin`) VALUES ('$username', '$emailaddress', '$hash', 'user')";
-                $result = mysqli_query($conn, $sqli);
+                $result = mysqli_query($db, $sqli);
                 if($result){
                     $showAlert = true;
                 }    

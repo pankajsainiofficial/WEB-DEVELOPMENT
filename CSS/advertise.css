@@ -61,6 +61,7 @@ body {
     width: 70%;
     height: 100%;
     margin: 20px auto 20px auto;
+    scroll-behavior: smooth;
 }
 .advertisemain h2 {
     text-align: center;

@@ -5,15 +5,22 @@
     margin: 5px;
 }
 /* -------------subcomapre-------------- */
+#subcompare1{
+    padding: 20px 175px;
+}
 #subcompare{   
     border: 1px solid red;
-    height: 700px;
-    width: 1150px;
+    /* height: 700px; */
+    /* width: 1150px; */
     display: flex;
     margin: auto; 
 }
 
 /* -----------------subcompare-photo----------- */
+
+#product_specs {
+    padding: 10px 20px;
+}
 .subcompare-photo{
     border: 1px solid blue;
     width: 40%;
@@ -54,6 +61,7 @@
 .subcompare-detail{
     border: 1px solid blue;
     width: 60%;
+
 }
 .details{
    padding: 10px;
@@ -101,9 +109,34 @@
 }
 .comparison tr{
     /* margin-bottom: 25px; */
-    height: 60px;
+    height: 45px;
 }
-
+.keyfeatures{
+    /* padding: 10px 50px 10px 50px; */
+    border: 1px solid red;
+    margin-top: 15px;
+    background: papayawhip;
+    padding: 3px 15px;
+}
+.keyfeatures table{
+    width: 100%;
+    line-height: 34px;
+    /* border: 1px solid red; */
+}
+.keyfeatures tr{
+    border: 1px solid blue;
+}
+/* -------------------------subcompare1------------------------- */
+.detail-spec table{
+    width: 100%;
+}
+.headtopic{
+    font-size: 24px;
+    font-weight: bold;
+}
+.subtopic{
+    font-weight: bold;
+}
 
 
 

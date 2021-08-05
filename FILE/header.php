@@ -1,6 +1,3 @@
-<?php
-    require "function.php";
-?>
 <div id="headerscroll">
     <div id="header">
         <div class="logo">

@@ -19,8 +19,8 @@
 
 <body>
     <?php
-               require "header.php";
-        ?>
+        require "header.php";
+    ?>
     <div id="advertisecontainer">
         <div class="imagesec">
             <div class="imagesec_content">

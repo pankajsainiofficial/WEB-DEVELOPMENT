@@ -2,12 +2,12 @@
     $login=false;
     $showError=false;
     if($_SERVER["REQUEST_METHOD"] == "POST"){
-        include "connection.php";
+        include "function.php";
         $emailid = $_POST['emailid'];
         $password = $_POST['password'];
         // Connecting with database
         $sqli = "SELECT * FROM `users` WHERE `emailaddress` = '$emailid'";
-        $result = mysqli_query($conn, $sqli);
+        $result = mysqli_query($db->conn, $sqli);
         $num = mysqli_num_rows($result);
         if($num==1){
             while($row = mysqli_fetch_assoc($result)){
