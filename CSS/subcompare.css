@@ -9,7 +9,7 @@
     padding: 20px 175px;
 }
 #subcompare{   
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 700px; */
     /* width: 1150px; */
     display: flex;
@@ -22,9 +22,11 @@
     padding: 10px 20px;
 }
 .subcompare-photo{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 40%;
-    padding: 20px 5px 20px 5px;    
+    padding: 20px 5px 20px 5px;  
+    border-right: 1px solid black;
+    border-top: 1px solid black;  
 }
 .product-image img{
     width: 100%;
@@ -59,7 +61,7 @@
 
 /* -----------------subcompare-detail--------------------- */
 .subcompare-detail{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 60%;
 
 }
@@ -76,7 +78,7 @@
 }
 .detail-link{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
 }
 .detail-link button{
@@ -127,17 +129,37 @@
     border: 1px solid blue;
 }
 /* -------------------------subcompare1------------------------- */
+.detail-spec{
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+.detail-spec h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
 .detail-spec table{
     width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
 }
 .headtopic{
     font-size: 24px;
     font-weight: bold;
+    background: #F2BC94;
+    color: #30110d;
+}
+.headtopic td{
+    border-style: none!important;
 }
 .subtopic{
-    font-weight: bold;
+    font-weight: 600;
+    
 }
-
+.detail-spec td{
+    padding: 4px 8px;
+    /* border: 1px dotted black; */
+    border-style: outset;
+}
 
 
 

@@ -1,8 +1,3 @@
-<?php
-    require "function.php";
-    $shuffle_data = $product->ProgetData();
-    print_r($shuffle_data);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +20,11 @@
     <div id="homepage">
         <?php
             require "header.php";
+        ?>
+        <?php
+            require "function.php";
+            $shuffle_data = $product->ProgetData();
+            print_r($shuffle_data);
         ?>
         <div id="address-bar">
             <h3>Home > Mobiles</h3>
@@ -890,9 +890,9 @@
                             </div>    
                         </div>
                     </div>
-                    <div class="mob-details border">
+                    <div class="mob-detail">
                         <div class="mobl">
-                            <div class="mobphoto">
+                            <div class="mobphoto border">
                                 <img src="<?php echo $items['mb_image1'] ?>" alt="ok">
                             </div>
                             <div class="mobspec border">
@@ -925,25 +925,70 @@
 
                                             <li><?php
                                                 $str = strval($items['mb_rearcamera']);
-                                                $res = preg_replace("/[^0-9MP+\s]/", "", "$str" );
-                                                // $str = preg_replace(`/[^0-9]/`, `` , `$items['mb_rearcamera']`);
+                                                $res = preg_replace("/[^0-9MP+\s]/i", "", "$str" );
                                                 echo "Rear:- ". $res; 
-                                             
                                              ?></li>
-                                            <li>16 MP Front</li>
+                                            <li><?php
+                                                $str = strval($items['mb_frontcamera']);
+                                                $res = preg_replace("/[^0-9MP+\s]/i", "", "$str" );
+                                                echo "Front:- ". $res; 
+                                             ?></li>
                                         </ul>
                                     </section>
                                     <section class="mob-info-sub">
                                         <h3>Connectivity</h3>
                                         <ul>
-                                            <li>3G,4G,5G,Volte</li>
-                                            <li>Wifi, IR Blaster</li>
+                                            <li>
+                                                <?php
+                                                $connectone = strval($items['mb_connect3g']);
+                                                $connecttwo = strval($items['mb_connect4g']);
+                                                $connectthree = strval($items['mb_connect5g']);
+                                                $connectvolte = strval($items['mb_connectvolte']);
+                                                    if(strpos($connectone, 'yes') !== false){
+                                                        echo '3G ';
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                    if(strpos($connecttwo, 'yes') !== false){
+                                                        echo "4G ";
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                    if(strpos($connectthree, 'yes') !== false){
+                                                        echo "5G ";
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                    if(strpos($connectvolte, 'yes') !== false){
+                                                        echo "VOLTE ";
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                ?>
+                                            </li>
+                                            <li>
+                                                <?php
+                                                $connectwifi = strval($items['mb_connectwifi']);
+                                                $connectblue = strval($items['mb_connectbluetooth']);
+
+                                                     if(strpos($connectwifi, 'yes') !== false){
+                                                        echo "Wifi ";
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                     if(strpos($connectblue, 'yes') !== false){
+                                                        echo "Bluetooth ";
+                                                    }else{
+                                                        echo "";
+                                                    }
+                                                ?>
+                                            </li>
                                         </ul>
                                     </section>
                                     <section class="mob-info-sub">
                                         <h3>Battery</h3>
                                         <ul>
-                                            <li>4820 mAh</li>
+                                            <li><?php echo strpos(strval($items['mb_batterysize']), 'mAh') !== false ?></li>
                                             <li>Fast Charging</li>
                                         </ul>
                                     </section>

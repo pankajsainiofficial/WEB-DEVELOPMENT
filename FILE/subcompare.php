@@ -157,7 +157,7 @@
                     <h2>Detail Specification</h2>
                     <table>
                         <tr class="headtopic">
-                            <td>General Info</td>
+                            <td colspan="2">General Info</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Model</td>
@@ -184,7 +184,22 @@
                             <td>Nano + Nano Sim</td>
                         </tr>
                         <tr class="headtopic">
-                            <td>Display</td>
+                            <td colspan="2">Design</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Dimensions</td>
+                            <td>172.8 x 77.3 x 10.3</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Weight</td>
+                            <td>238g</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Thickness</td>
+                            <td>10.2mm</td>
+                        </tr>
+                        <tr class="headtopic">
+                            <td colspan="2">Display</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Display Size</td>
@@ -211,7 +226,7 @@
                             <td>HDR 10+</td>
                         </tr>
                         <tr class="headtopic">
-                            <td>Memory</td>
+                            <td colspan="2">Memory</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">RAM</td>
@@ -230,7 +245,7 @@
                             <td> Yes</td>
                         </tr>
                         <tr class="headtopic">
-                            <td>Battery</td>
+                            <td colspan="2">Battery</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Capacity</td>
@@ -245,7 +260,7 @@
                             <td>865 Watt</td>
                         </tr>
                         <tr class="headtopic">
-                            <td>Connectivity</td>
+                            <td colspan="2">Connectivity</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">3G Capability</td>
@@ -275,7 +290,41 @@
                             <td>Yes, v5.2, A2DP, LE, aptX HD, aptX Adaptive</td>
                         </tr>
                         <tr class="headtopic">
-                            <td>Sensors</td>
+                            <td colspan="2">Camera</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Camera Setup</td>
+                            <td>Triple Camera</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Rear Camera</td>
+                            <td>64 MP f/1.8 (Wide Angle)<br>
+                                13 MP f/2.4 (Ultra Wide)<br>
+                                5 MP f/2 (Macro) with autofocus</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Front Camera</td>
+                            <td>24 MP f/2.5 (Wide Angle)</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Rear Video Recording</td>
+                            <td>1080p @ 30fps FHD, 4K @ 480fps UHD</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Front Video Recording</td>
+                            <td>1080p @ 30fps FHD</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Shooting Modes</td>
+                            <td>Continuos Shooting<br>
+                                High Dynamic Range mode (HDR)</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Flash</td>
+                            <td>Yes, LED Flash</td>
+                        </tr>
+                        <tr class="headtopic">
+                            <td colspan="2">Sensors</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Fingerprint Sensnor</td>
@@ -297,8 +346,8 @@
                             <td class="subtopic">Other Sensor</td>
                             <td>Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope</td>
                         </tr>
-                        <tr class="maintopic">
-                            <td>Multimedia</td>
+                        <tr class="headtopic">
+                            <td colspan="2">Multimedia</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">FM</td>
@@ -306,11 +355,38 @@
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Loud Speaker</td>
-                            <td>Yes/td>
+                            <td>Yes</td>
                         </tr>
                         <tr class="topic">
                             <td class="subtopic">Audio Jack</td>
                             <td>3.5mm</td>
+                        </tr>
+                        <tr class="headtopic">
+                            <td colspan="2">Technical</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">OS</td>
+                            <td>v11</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Chipset</td>
+                            <td>Qualcomm Snapdragon</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">CPU</td>
+                            <td>2.84 GHz, Octa Core Processor</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">Core Details</td>
+                            <td>1x2.84 GHz Kryo 680 & 3x2.XX GHz Kryo 680 & 4x1.XX GHz Kryo 680</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">GPU</td>
+                            <td>Adreno 660</td>
+                        </tr>
+                        <tr class="topic">
+                            <td class="subtopic">RAM type</td>
+                            <td>LPDDR5</td>
                         </tr>
                     </table> 
                 </div>
