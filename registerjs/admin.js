@@ -58,7 +58,7 @@ function showFile() {
             filereader.onload = (e)=>{
                 console.log(e);
                 let fileUrl =filereader.result;
-                var ImgTag= `<img type="file" src="${fileUrl}" alt="">`;
+                var ImgTag= `<img type="file" src="${fileUrl}" alt="">;
                 files.innerHTML += ImgTag;
             }
             filereader.readAsDataURL(iterator);

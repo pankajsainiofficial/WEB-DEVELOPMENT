@@ -86,7 +86,6 @@
     font-size: 17px;
     padding: 10px;
     width: 135px;
-    /* height: 50px; */
     white-space: nowrap;
 }
 .product-variant{
@@ -104,6 +103,7 @@
     COLOR: WHITE;
     PADDING: 4PX 10PX 4PX 10PX;
     FONT-SIZE: 15PX;
+    width: 120px;
 }
 .comparison th{
     font-size: 25px;
@@ -114,19 +114,20 @@
     height: 45px;
 }
 .keyfeatures{
-    /* padding: 10px 50px 10px 50px; */
     border: 1px solid red;
     margin-top: 15px;
     background: papayawhip;
-    padding: 3px 15px;
+    padding: 15px;
 }
 .keyfeatures table{
     width: 100%;
-    line-height: 34px;
     /* border: 1px solid red; */
 }
-.keyfeatures tr{
+.keyfeatures tbody tr{
     border: 1px solid blue;
+}
+.keyfeatures tbody tr td{
+    padding: 10px;
 }
 /* -------------------------subcompare1------------------------- */
 .detail-spec{
@@ -160,7 +161,92 @@
     /* border: 1px dotted black; */
     border-style: outset;
 }
-
-
-
-
+/* ----------------------review form------------- */
+.reviewform section{
+    display: flex;
+}
+.reviewform{
+    border: 1px solid gray;
+    padding:15px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+}
+#productreview h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#productreview{
+    margin-top: 25px;
+    border: 1px solid red;
+    display: flex;
+}
+.review textarea{
+    height: 150px;
+    width: 400px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.reviewfield input{
+    width: 400px;
+    height: 25px;
+    margin-left: 10px;
+}
+.reviewfield{
+    margin-top: 15px;
+}
+.fa-star{
+    color: black;
+}
+.fas {
+    font-size: 20px;
+}
+.star-widget input {
+    display: none;
+}
+.star-widget label{
+    font-size: 30px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,input:not(:checked) ~ label:hover ~ label{
+color: #fd4;
+}
+input:checked ~ label{
+color: #fd4;
+}
+input#rate-5:checked ~ label{
+color: orange;
+text-shadow: 0 0 10px rgb(241, 235, 229);
+}
+.reviewform form button{
+    padding: 6px 16px;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 20px;
+}
+.overallrating{
+    border: 1px solid blue;
+    padding: 20px;
+}
+.finalrating{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    line-height: 140px;
+}
+.ratings{
+    display: flex!important;
+}
+.ratings h2{
+    font-size: 70px !important;
+}
+.ratings h3{
+    font-size: 50px;
+    color: gray;
+}

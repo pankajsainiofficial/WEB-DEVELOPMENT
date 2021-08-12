@@ -24,7 +24,6 @@
         <?php
             require "function.php";
             $shuffle_data = $product->ProgetData();
-            print_r($shuffle_data);
         ?>
         <div id="address-bar">
             <h3>Home > Mobiles</h3>
@@ -916,7 +915,7 @@
                                         <h3>Display</h3>
                                         <ul>
                                             <li><?php echo $items['mb_displaysize'] ?></li>
-                                            <li><?php echo $items['mb_displaypixel'] ?></li>
+                                            <li><?php $arr= explode(",", strval($items['mb_displaypixel'])); echo $arr[0];?></li>
                                         </ul>
                                     </section>
                                     <section class="mob-info-sub">
@@ -925,13 +924,13 @@
 
                                             <li><?php
                                                 $str = strval($items['mb_rearcamera']);
-                                                $res = preg_replace("/[^0-9MP+\s]/i", "", "$str" );
-                                                echo "Rear:- ". $res; 
+                                                $result = preg_replace('/[^0-9MP.]/', ' ', $str); 
+                                                echo $result;
                                              ?></li>
                                             <li><?php
                                                 $str = strval($items['mb_frontcamera']);
-                                                $res = preg_replace("/[^0-9MP+\s]/i", "", "$str" );
-                                                echo "Front:- ". $res; 
+                                                $result = preg_replace('/[^0-9MP.]/', ' ', $str); 
+                                                echo $result;
                                              ?></li>
                                         </ul>
                                     </section>
@@ -988,8 +987,14 @@
                                     <section class="mob-info-sub">
                                         <h3>Battery</h3>
                                         <ul>
-                                            <li><?php echo strpos(strval($items['mb_batterysize']), 'mAh') !== false ?></li>
-                                            <li>Fast Charging</li>
+                                            <li><?php
+                                            $string = strval($items['mb_batterysize']) ;
+                                           $ar = strtok($string, 'mAh');
+                                          echo $ar.' mAh ...';
+                                            ?>
+                                            </li>
+                                            <li><?php 
+                                            $string = strval($items['mb_charging']); echo substr("$string",0,20)." ...";?></li>
                                         </ul>
                                     </section>
                                 </div>
@@ -998,7 +1003,7 @@
                                 <h2> Rs 26,000</h2>
                                 <div class="button-compare">
                                     <div class="view_pro elec-compare">
-                                        <a href="subcompare.php"> <p>See Prices</p></a>
+                                        <a href="<?php printf('%s?item_id=%s','subcompare.php', $items['mb_srno'])?>"> <p>See More</p></a>
                                     </div>
                                     <div class="compare elec-compare">
                                         <p>
