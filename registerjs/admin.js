@@ -56,9 +56,9 @@ function showFile() {
         if(validextention.includes(filetype)){
             let filereader  = new FileReader();
             filereader.onload = (e)=>{
-                console.log(e);
                 let fileUrl =filereader.result;
-                var ImgTag= `<img type="file" src="${fileUrl}" alt="">;
+                var ImgTag= `<span style='display: inline-block;
+                width:140px;'><img type="file" src="${fileUrl}" alt=""><i class="far fa-times-circle"></i></span>`;
                 files.innerHTML += ImgTag;
             }
             filereader.readAsDataURL(iterator);
@@ -67,4 +67,10 @@ function showFile() {
             alert("jpg, png and jpeg are only supported");
         }  
     }
-    }
+}
+var crossdelete = document.getElementById("fileheredrop");
+var deleteitems = crossdelete.getElementsByClassName("fa-times-circle");
+// var deleteimg = crossdelete.querySelectorAll('span');
+('click', (elem)=>{
+    console.log(elem);
+});

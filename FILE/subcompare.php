@@ -463,7 +463,7 @@
                     </form>
                 </div>
                 <div class="overallrating">
-                    <section> <h3>Overall Rating</h3></section>
+                    <section> <h2>Overall Rating</h2></section>
                     <div class="finalrating">
                         <section class="ratings"> <h2>4.5</h2><h3>/5</h3> </section>
                         <section>
@@ -483,9 +483,42 @@
                         <section><h3>454 Reviews</h3></section>
                     </div>
                 </div>
+                <div class="breakdown">
+                    <section> <h2>Rating Breakdown</h2></section>
+                    <div class="ratingbreak">
+                        <section class="break-rate">
+                            <h3>5</h3>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <progress class="ratingbar" value="60" max="100"> </progress>
+                        </section>
+                        <section class="break-rate">
+                            <h3>4</h3>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <progress class="ratingbar" value="50" max="100"> </progress>
+                        </section>
+                        <section class="break-rate">
+                            <h3>3</h3>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <progress class="ratingbar" value="40" max="100"> </progress>
+                        </section>
+                        <section class="break-rate">
+                            <h3>2</h3>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <progress class="ratingbar" value="30" max="100"> </progress>
+                        </section>
+                        <section class="break-rate">
+                            <h3>1</h3>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <progress class="ratingbar" value="20" max="100"> </progress>
+                        </section>
+                    </div>
+                </div>    
             </div>
             <!-- ----------------------------------subcompare1----------------------             -->
         </div>
+        <?php
+                require "footer.php";
+            ?>
         <!-- ---------------------------------homepage----------------------------- -->
     </div>
     <script src="/JS/subcompare.js"></script>

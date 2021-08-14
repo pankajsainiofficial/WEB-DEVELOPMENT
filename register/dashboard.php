@@ -90,8 +90,11 @@
             <div class="adminimg accset">
                 <img src="/images/logo.png" alt="superuser">
             </div>
-            <div class="accset">
-                <p>Janephar Lopez</p>
+            <div class="accset" style=" width: 115px;
+                font-size: 20px;
+                font-family: monospace;
+                white-space: nowrap;">
+                <p><?php echo $_SESSION['username']; ?></p>
             </div>
         </section>
     </header>

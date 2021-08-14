@@ -49,7 +49,7 @@
                                 <input id="selectfile" type="file" multiple />
                             </div>
                             <div id="fileheredrop" class="filesuploaded">
-
+                                <img src="../photos/aboutmain.jpg" alt="Try to reload the page">
                             </div>
                         </div>
                         <!-- ----------------------------------datasection--------------------------- -->

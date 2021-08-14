@@ -174,13 +174,14 @@
     flex-direction: column;
 }
 #productreview h2{
-    font-family: sans-serif;
-    font-size: 30px;
+    font-family: monospace;
+    font-size: 27px;
 }
 #productreview{
     margin-top: 25px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
+    justify-content: space-between;
 }
 .review textarea{
     height: 150px;
@@ -249,4 +250,36 @@ text-shadow: 0 0 10px rgb(241, 235, 229);
 .ratings h3{
     font-size: 50px;
     color: gray;
+}
+.breakdown{
+    border: 1px solid blue;
+    padding: 20px;
+}
+.break-rate{
+  justify-content: space-between;
+  width: 13rem;
+  display: flex;
+  align-items: center;
+}
+.break-rate h3 {
+    font-size: 20px;
+}
+.break-rate i{
+    font-size: 22px;
+    color: orange;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+}
+/* .break-rate progress{
+    align-items: center;
+    display: flex;
+}  */
+.ratingbreak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    height: 100%;
 }

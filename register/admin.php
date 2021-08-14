@@ -4,7 +4,6 @@
         header("location: /FILE/login.php");
         exit;
     }
-    // echo 'Welcome :-'. $_SESSION['username'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
