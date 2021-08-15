@@ -45,11 +45,13 @@ function upload_file(e){
     e.preventDefault();
     file = e.dataTransfer.files;
     showFile();
-}
+};
 
 function showFile() {
     var files = document.getElementById('fileheredrop');
-    for (let iterator of file) {
+    let iterator = false;
+    for (iterator of file) {
+        console.log(iterator);
         filetype = iterator.type;
         filetype.toLowerCase();
         let validextention = ["image/jpeg", "image/jpg", "image/png" ];
@@ -57,9 +59,10 @@ function showFile() {
             let filereader  = new FileReader();
             filereader.onload = (e)=>{
                 let fileUrl =filereader.result;
-                var ImgTag= `<span style='display: inline-block;
-                width:140px;'><img type="file" src="${fileUrl}" alt=""><i class="far fa-times-circle"></i></span>`;
+                var ImgTag= `<span style="display: inline-block;
+                width:140px;"><img type="file" src="${fileUrl}" alt=""><i class="far fa-times-circle"></i></span>`;
                 files.innerHTML += ImgTag;
+                crossdelete();
             }
             filereader.readAsDataURL(iterator);
         }
@@ -68,9 +71,15 @@ function showFile() {
         }  
     }
 }
-var crossdelete = document.getElementById("fileheredrop");
-var deleteitems = crossdelete.getElementsByClassName("fa-times-circle");
-// var deleteimg = crossdelete.querySelectorAll('span');
-('click', (elem)=>{
-    console.log(elem);
-});
+
+// Delete image by clicking on cross 
+
+function crossdelete(){
+    var crossdelete = document.getElementById("fileheredrop");
+    var deleteitems = crossdelete.getElementsByClassName("fa-times-circle");
+    Array.from(deleteitems).forEach((e)=>{
+        e.addEventListener("click",()=>{
+            e.parentNode.remove();
+        })
+    })
+}
