@@ -1,4 +1,4 @@
-<?php
+<?php       
     session_start();
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         header("location: /FILE/login.php");
@@ -148,6 +148,7 @@
                                     <div class="bar" data-percentage="50"></div>
                                     <span>Jan</span>
                                 </li>
+
                                 <li>
                                     <div class="bar" data-percentage="100"></div>
                                     <span>Feb</span>

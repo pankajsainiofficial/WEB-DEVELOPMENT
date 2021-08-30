@@ -5,9 +5,23 @@
         exit;
     }
     // echo 'Welcome :-'. $_SESSION['username'];
+    require "../FILE/function.php";
 ?>
 <?php
     if(isset($_POST['submit'])){
+        // print_r($_FILES);
+        // echo "hello";
+        // print_r($_FILES['jsonFile']);
+        copy($_FILES['jsonFile']['tmp_name'] ,'../jsonFiles/'.$_FILES['jsonFile']['name']);
+        $data = file_get_contents('../jsonFiles/'.$_FILES['jsonFile']['name']);
+        $products = json_decode($data);
+        // print_r ( $products);
+        foreach ($products as $product) {
+            print_r($product);
+        }
+        // foreach($product in $products){
+        //     print_r($product[0]->name);
+        // }
         
     }
 ?>
@@ -46,7 +60,7 @@
                                 <p>or</p>
                                 <p><input type="button" value="Select File(s)" onclick="file_explorer(event);"></p>
 
-                                <input id="selectfile" type="file" multiple />
+                                <input id="selectfile" name="images[]" type="file" multiple />
                             </div>
                             <div id="fileheredrop" class="filesuploaded">
                             </div>
@@ -171,6 +185,10 @@
                                                             placeholder="Paste Affiliate link here">
                                                     </li>
                                                     <li>ebay Affliate link
+                                                        <input name="ebayAffiliateLink"
+                                                            placeholder="Paste Affiliate link here">
+                                                    </li>
+                                                    <li>Official Affliate link
                                                         <input name="ebayAffiliateLink"
                                                             placeholder="Paste Affiliate link here">
                                                     </li>
@@ -443,7 +461,7 @@
                                                             <option value="Rear sensor">Rear sensor</option>
                                                             <option value="under Display">under Display</option>
                                                             <option value="Side Button">Side Button</option>
-                                                        <datalist>
+                                                            <datalist>
                                                     </li>
                                                     <li>GPS
                                                         <input type="text" list="yesnot" name="progpsavail"
@@ -498,7 +516,12 @@
                                     </div>
                                 </div>
                                 <div class="navbutton">
-                                    <button type="submit">Upload Data</button>
+                                    <button type="submit" name="submit">Upload Data</button>
+                                    <section>
+                                        <label for="JsonFileUpload">Upload Json File</label>
+                                        <input class='file-upload-button' type="file" 
+                                        id="JsonFileUpload" name="jsonFile"/>
+                                    </section>
                                 </div>
                             </div>
                         </div>

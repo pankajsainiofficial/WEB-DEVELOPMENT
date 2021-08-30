@@ -38,7 +38,7 @@ body {
     width: 100px;
     margin: 0px 10px;
 }
-#drag_upload_file > p > input {
+#drag_upload_file > p > input{
     margin-left: 8px;
     padding: 9px 18px 9px 18px;
     background-color: orange;
@@ -46,7 +46,7 @@ body {
     font-weight: 800;
     cursor: pointer;
 }
-#drag_upload_file > p > input:hover {
+#drag_upload_file > p > input:hover{
     position: relative;
     top: -2px;
     box-shadow: 0px 0px 15px 0px rgb(0 0 0/12);
@@ -189,7 +189,7 @@ tbody tr {
     overflow: hidden;
     overflow-y: auto;
 }
-.addproductfix ul, .productprice ul, .productspower ul, .extradetails ul {
+.addproductfix ul, .productprice ul, .productspower ul, .extradetails ul, .affiliatebox ul {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -206,7 +206,7 @@ tbody tr {
 /* #affiliatelink {
     display: none;
 } */
-.affiliatebox ul , .discriptionbox ul{
+.discriptionbox ul{
     text-align: center;
     height: 200px;
     align-items: center;
@@ -214,9 +214,6 @@ tbody tr {
     justify-content: center;
 }
 /* ---------- Admin Discription --------- */
-/* #admindiscription {
-    display: none;
-} */
 .discriptionbox ul {
     height: 250px !important;
 }
@@ -235,9 +232,6 @@ tbody tr {
     max-height: 180px;
 }
 /* <!-- ---------------------------product-price-&-sales-------------------------- --> */
-/* #adminproductprice {
-    display: none;
-} */
 .productprice input::-webkit-outer-spin-button ,
 .productprice input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -253,6 +247,23 @@ tbody tr {
     text-align: center;
     font-family: monospace;
 }
+.navbutton section {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 10px;
+}
+#JsonFileUpload {
+    margin-top: 10px;
+    font-size: 18px;
+}
+/* .navbutton::after{
+	content: attr(data-myval);
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+} */
 
 /* ------------------------sticky-header------------------- */
 

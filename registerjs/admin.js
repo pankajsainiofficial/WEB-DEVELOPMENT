@@ -14,16 +14,6 @@ function stopscroll(){
 // ------------------------------------------------------------------
 var file;
 var filetype;
-// let files = document.getElementById('fileheredrop');
-function file_explorer(e){
-    var selectfile = document.getElementById('selectfile');
-    e.preventDefault();
-    selectfile.click();
-    selectfile.addEventListener("change",(e)=>{
-        file = e.target.files;
-        showFile();
-    });
-};
 function dragoverstart(e){
     e.preventDefault();
     let styledata = document.getElementById("drop_file_zone");
@@ -41,6 +31,17 @@ function dragleavestart(e){
     styledata.style.borderStyle = "dashed";
 };
 
+function file_explorer(e){
+    var selectfile = document.getElementById('selectfile');
+    e.preventDefault();
+    selectfile.click();
+    selectfile.addEventListener("change",function fileupload(){
+        file = selectfile.files;
+        selectfile.removeEventListener("change",fileupload);
+        showFile();           
+    });  
+};
+
 function upload_file(e){
     e.preventDefault();
     file = e.dataTransfer.files;
@@ -48,10 +49,8 @@ function upload_file(e){
 };
 
 function showFile() {
-    var files = document.getElementById('fileheredrop');
-    let iterator = false;
-    for (iterator of file) {
-        console.log(iterator);
+    var filesimg = document.getElementById('fileheredrop');
+    for (let iterator of file) {
         filetype = iterator.type;
         filetype.toLowerCase();
         let validextention = ["image/jpeg", "image/jpg", "image/png" ];
@@ -60,8 +59,8 @@ function showFile() {
             filereader.onload = (e)=>{
                 let fileUrl =filereader.result;
                 var ImgTag= `<span style="display: inline-block;
-                width:140px;"><img type="file" src="${fileUrl}" alt=""><i class="far fa-times-circle"></i></span>`;
-                files.innerHTML += ImgTag;
+                width:140px;"><img type="file" name="image[]" src="${fileUrl}" alt=""><i class="far fa-times-circle"></i></span>`;
+                filesimg.innerHTML += ImgTag;
                 crossdelete();
             }
             filereader.readAsDataURL(iterator);
@@ -69,7 +68,7 @@ function showFile() {
         else{
             alert("jpg, png and jpeg are only supported");
         }  
-    }
+    }  
 }
 
 // Delete image by clicking on cross 
@@ -82,4 +81,19 @@ function crossdelete(){
             e.parentNode.remove();
         })
     })
-}
+};
+
+// name of the json file
+
+// function jsonname(){
+//    let valuename = document.getElementById("JsonFileUpload").value;
+// //    let placefilename = document.querySelector(".navbutton");
+//    let  lowvaluename = valuename.toLowerCase();
+//     let validfile = ["json"];
+//    if(lowvaluename.includes(validfile)){
+//        placefilename.setAttribute('data-myval', `${filename}`);
+//    }
+//    else { 
+//        alert ("Select a valid json file");
+//    }
+// }
