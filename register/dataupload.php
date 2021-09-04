@@ -9,20 +9,20 @@
 ?>
 <?php
     if(isset($_POST['submit'])){
-        // print_r($_FILES);
-        // echo "hello";
-        // print_r($_FILES['jsonFile']);
         copy($_FILES['jsonFile']['tmp_name'] ,'../jsonFiles/'.$_FILES['jsonFile']['name']);
         $data = file_get_contents('../jsonFiles/'.$_FILES['jsonFile']['name']);
         $products = json_decode($data);
-        // print_r ( $products);
         foreach ($products as $product) {
-            print_r($product);
+            // $datacount = count($product);
+            // $dataspec = count($product[0]->specification);
+            // echo $dataspec;
+            // for($a=0;$a<$datacount;$a++){
+            //     print_r('<br>'.$product[$a]->name);
+            //     for ($i=0; $i < $dataspec; $i++) { 
+            //         print_r($product[$a]->specification[$i]);
+            //     }
+            // }
         }
-        // foreach($product in $products){
-        //     print_r($product[0]->name);
-        // }
-        
     }
 ?>
 <!DOCTYPE html>

@@ -256,7 +256,7 @@ tbody tr {
 }
 #JsonFileUpload {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 18px; 
 }
 /* .navbutton::after{
 	content: attr(data-myval);
