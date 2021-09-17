@@ -25,29 +25,33 @@
                 require "header.php";
             ?>
         <div id="addressbar">
-            <h3>Home > Compare > <?php echo $item['mb_brandname']. " " . $item['mb_mobilename'] ?></h3>
+        <!-- $item['mb_brandname']. " " .  -->
+            <h3>Home > Compare > <?php echo $item['mb_mobilename'] ?></h3>
         </div>
         <div id="subcompare1">
             <div id="subcompare">
                 <div class="subcompare-photo">
                     <div class=product-image>
-                        <img src="<?php echo $item['mb_image1']?>" id="productimg">
+                        <img src="<?php echo '../Products/mobile/'.$item['mb_image1'].'.jpg'?>" id="productimg">
                     </div>
                     <div class="small-image-row">
                         <div class="small-image-col">
-                            <img src="<?php echo $item['mb_image1']?>" class="smallimg">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image1'].'.jpg'?>" class="smallimg">
                         </div>
                         <div class="small-image-col">
-                            <img src="<?php echo $item['mb_image2']?>" class="smallimg">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image2'].'.jpg'?>" class="smallimg">
                         </div>
                         <div class="small-image-col">
-                            <img src="<?php echo $item['mb_image3']?>" class="smallimg">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image3'].'.jpg'?>" class="smallimg">
                         </div>
                         <div class="small-image-col">
-                            <img src="<?php echo $item['mb_image4']?>" class="smallimg">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image4'].'.jpg'?>" class="smallimg">
                         </div>
                         <div class="small-image-col">
-                            <img src="<?php echo $item['mb_image5']?>" class="smallimg">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image5'].'.jpg'?>" class="smallimg">
+                        </div>
+                        <div class="small-image-col">
+                            <img src="<?php echo '../Products/mobile/'.$item['mb_image6'].'.jpg'?>" class="smallimg">
                         </div>
                     </div>
                 </div>
@@ -61,7 +65,8 @@
                     </div>
                     <div class="details">
                         <div class="product-heading">
-                            <h2><?php echo $item['mb_brandname']. " " . $item['mb_mobilename'] ?></h2>
+                        <!-- $item['mb_brandname']. " " .  -->
+                            <h2><?php echo $item['mb_mobilename'] ?></h2>
                         </div>
                         <hr>
                         <div class="product-variant">

@@ -865,7 +865,6 @@
                 
 
                 <!-- -------------------------------------------MOBILE DETAIL-----------------------                -->
-                <?php foreach($shuffle_data as $items) { ?>
                 <div class="product-detail">
                     <div class="mobile-detail">
                         <div class="filter-head">
@@ -889,13 +888,15 @@
                             </div>    
                         </div>
                     </div>
+                    <?php foreach($shuffle_data as $items) { ?>
                     <div class="mob-detail">
                         <div class="mobl">
-                            <div class="mobphoto border">
-                                <img src="<?php echo $items['mb_image1'] ?>" alt="ok">
+                            <div class="mobphoto border" >
+                                <img src="<?php echo '../Products/mobile/'.$items['mb_image1'].'.jpg'; ?>" alt="ok" style="background-position:center">
                             </div>
                             <div class="mobspec border">
-                                <h2><?php echo $items['mb_brandname']. " " . $items['mb_mobilename']?></h2>
+                            <!-- $items['mb_brandname']. " " . -->
+                                <h2><?php echo $items['mb_mobilename']?></h2>
                                 <div class="mob-info">
                                     <section class="mob-info-sub">
                                         <h3>Memory</h3>
@@ -1014,10 +1015,10 @@
                             </div> 
                         </div>  
                     </div>
-
+                    <?php } ?>
  <!-- -----------------------------------product detail------------------------                -->
                 </div>
-                <?php } ?>
+                
   <!----------------------------------------------sub-compare---------------------------------------------->
             </div>
   <!-- ----------------------------------------------Main page compare--------------------------->

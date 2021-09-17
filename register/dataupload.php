@@ -1,5 +1,6 @@
 <?php
     session_start();
+
     if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         header("location: /FILE/login.php");
         exit;
@@ -13,6 +14,17 @@
         $data = file_get_contents('../jsonFiles/'.$_FILES['jsonFile']['name']);
         $products = json_decode($data);
         foreach ($products as $product) {
+            // print_r($product);
+            $networkdet=$product->network;
+            $pieces=explode(",",$networkdet);
+            $runsql = "INSERT INTO `productmobile` (`mb_uniqueid`, `mb_image1`, `mb_image2`, `mb_image3`, `mb_image4`,`mb_image5`, `mb_image6`, `mb_mobilename`, `mb_brandname`, `mb_amzrating`, `mb_os`, `mb_wireless`, `mb_warrenty`,`mb_cellulartech`, `mb_ramsize`, `mb_displaytype`, `mb_discription`, `mb_batterytype`,`mb_batterysize`, `mb_charging`, `mb_simtype`, `mb_releasedate`, `mb_dualsim`, `mb_dimention`, `mb_proweight`, `mb_touchdisplay`, `mb_displaysize`, `mb_displaypixel`, `mb_ratiodisplay`, `mb_ppidisplay`, `mb_glassdisplay`, `mb_featuredisplay`, `mb_displaynotch`, `mb_romsize`, `mb_romtype`, `mb_cardslot`, `mb_expandablemem`, `mb_connectgprs`, `mb_connectedge`, `mb_connect3g`, `mb_connect4g`, `mb_connect5g`, `mb_connectvolte`, `mb_connectwifi`, `mb_connectbluetooth`, `mb_connectusb`, `mb_usbfeatureconnect`, `mb_rearcamera`, `mb_camerafeature`, `mb_cameravideo`, `mb_cameraflash`, `mb_frontcamera`, `mb_frontvideo`, `mb_prochipset`, `mb_procpu`, `mb_procoredetails`, `mb_architecture`, `mb_progpu`, `mb_customui`, `mb_colors`, `mb_javasupported`, `mb_browsupport`, `mb_profingerprint`, `mb_progpsavail`, `mb_faceunlock`, `mb_prosensors`, `mb_projackhead`, `mb_spashproof`, `mb_emailavail`, `mb_musicavail`, `mb_videoavail`, `mb_fmradio`, `mb_docreader`, `mb_launchdate`) VALUES ('$product->ID_Ekm', '$product->IMG1', '$product->IMG2', '$product->IMG3', '$product->IMG4', '$product->IMG5', '$product->IMG6', '$product->product_name', '$product->Brand', '$product->AMZ_RATING', '$product->operating_system', 'NULL', 'Null', '$pieces[0]', '$product->RAM', '$product->display_type', 'uyjgajhvajvivi', '$product->battery_type', '$product->battery_capacity', '$product->fast_chraging', '$product->sim', '2021-09-15 18:28:18', 'Null', '$product->dimensions', '$product->weight', '$product->touchscreen', '$product->display', '$product->resolution', '$product->aspect_ratio', '$product->pixel_density', '$product->protection', 'Null', '$product->bezzel_less_display', '$product->STORAGE', 'NULL', 'NULL', '$product->expandable_memory', 'NULL', 'null', 'NULL', 'null', 'null', '$product->voice_over_lte', '$product->wifi', '$product->bluetooth', '$product->usb_otg_support', '$product->USB', '$product->rear_camera', '$product->camera_features', '$product->video_quality', '$product->flash', '$product->front_camera', 'null', '$product->chipset', '$product->cpu', '$product->cores', '$product->architecture', '$product->Graphics', '$product->custom_ui', '$product->colors', '$product->infrared' , 'null', '$product->fingerprint_sensor', '$product->GPS', '$product->face_unlock', '$product->other_sensor', '$product->audio_jack','$product->water_resistant', 'null', '$product->speaker', 'null','null', 'null','$product->launch_date')";
+            if($db->conn->query($runsql)==TRUE){
+                echo "New Record uploaded successfully";
+            } else {
+                echo "Error: " . $runsql . "<br>" . $db->conn->error;
+                // echo "Some Error";
+              }
+            
             // $datacount = count($product);
             // $dataspec = count($product[0]->specification);
             // echo $dataspec;
@@ -22,6 +34,7 @@
             //         print_r($product[$a]->specification[$i]);
             //     }
             // }
+            
         }
     }
 ?>
