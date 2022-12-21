@@ -13,7 +13,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tenetur, harum in modi earum vel debitis consequuntur nesciunt aperiam reprehenderit eveniet est doloribus dolor alias numquam consequatur nihil, laboriosam natus esse sequi quidem adipisci nam maiores omnis. Unde illum cumque numquam nulla. Reprehenderit eos consequuntur blanditiis. Voluptatem deleniti labore, aliquam aperiam modi quam quia dolorem?</p>
             </div>
             <span class="footer-logo">
-                <img src="/photos/weblogo.png" alt="">
+                <img src="/photos/f21.png" alt="">
             </span>
         </div>
         <div class="navigate footer-fix">

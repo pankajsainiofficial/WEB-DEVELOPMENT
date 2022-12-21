@@ -16,7 +16,7 @@
                     session_start();
                     $_SESSION['loggedin']= true;
                     $_SESSION['username']= $row['username'];
-                    $_SESSION['emailid']= $emailid;
+                    $_SESSION['emailid']= $emailid; 
                     header("location: /register/admin.php");
                 }
                 else {

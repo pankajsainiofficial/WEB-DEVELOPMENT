@@ -1,8 +1,8 @@
 <div id="headerscroll">
     <div id="header">
         <div class="logo">
-            <img src="/photos/weblogo.png" alt="ok">
-            <h3>Price Pair</h3>
+            <img src="/photos/f21.png" alt="ok">
+            <!-- <h3>Price Pair</h3> -->
         </div>
         <div class="searchbar">
             <div class="category">
@@ -50,6 +50,7 @@
                 <div class="sub-menu">
                     <ul>
                         <li>Laptop</li>
+                        <li href="compare.php">Mobiles</li>
                         <li>Tablets</li>
                         <li>Gaming</li>
                         <li>Desktop</li>
@@ -67,7 +68,7 @@
                 <a class="btn1" href="/register/admin.php"><li> Admin</li></a>
                 <a class="btn1" href="shop.php"><li> Top Deal</li></a>
                 <a class="btn1" href="contact.php"><li> Contact Us</li></a>
-                <a class="btn1" href="compare.php"><li> Compare</li></a>
+                <a class="btn1" href="procompare.php"><li> Compare</li></a>
             </ul>
         </div>
     </div>

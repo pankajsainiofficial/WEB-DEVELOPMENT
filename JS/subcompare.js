@@ -5,4 +5,3 @@ Array.from(smallimg).forEach((e)=>{
         productimg.src= e.src;
     })
 });
-

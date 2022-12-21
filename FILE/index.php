@@ -51,7 +51,7 @@
                     </div>
                     <div class="horizontal">
                         <ul>
-                            <li><a href="http://www.google.com"><span class="arrow"></span>Leading Smartphones</a> </li>
+                            <li><a href="http://www.google.com"><span class="arrow"></span> Leading Smartphones</a> </li>
                             <li><a href="http://www.google.com"><span class="arrow"></span> Leading Computers</a></li>
                             <li><a href="http://www.google.com"><span class="arrow"></span> Leading Laptops</a></li>
                             <li><a href="http://www.google.com"><span class="arrow"></span> Leading Gadgets</a></li>

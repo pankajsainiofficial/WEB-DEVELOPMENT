@@ -12,7 +12,7 @@ body {
     display: flex;
     border: 1px solid rgb(139, 216, 162);
     height: 68px;
-    background-color: navy;
+    background-color: #2185E3;
 }
 #header h3 {
     color: white;
@@ -26,12 +26,12 @@ body {
     align-items: baseline;
 }
 .logo img{
-    border-radius: 50%;
-    background-color: whitesmoke;
+    /* border-radius: 50%;
+    background-color: whitesmoke; */
     height: 61px;
-    width: 70px;
+    width: 202px;
     margin: 4px;
-    margin-left: 35px;
+    margin-left: 23px;
 }
 .logo h3 {
     white-space: nowrap;
@@ -101,7 +101,7 @@ body {
     font-size: 25px;
     position: relative;
     left: 20px;
-    color: #FFFDD0;
+    color: white;
     cursor: pointer;
 }
 .fas{
@@ -130,7 +130,7 @@ body {
 #navbar {
     display: flex;
     height: 40px;
-    background: #ffc55c;
+    background: #ffc108;
 }
 .categories_list {
     padding: 10px;

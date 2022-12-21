@@ -10,8 +10,7 @@ $(document).ready(function () {
         hideitem();
         e.preventDefault();
     }));
-
-
+    
     $('.formtext-menu').hide();
 
     $('.formmenu').on('click', (e) => {
@@ -26,9 +25,6 @@ $(window).scroll(target);
 function adminhide() {
     $('.formtext-menu').toggle(500);
 }
-
-
-
 function hideitem() {
     $(".alert").hide();
     $(".alert").fadeOut(500);

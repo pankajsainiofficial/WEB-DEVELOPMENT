@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
      /* background: linear-gradient(180deg,#333333 , #625772,GREY); */
-     background: linear-gradient(180deg,#505160 , #68829E);
+     /* background: linear-gradient(180deg,#505160 , #68829E); */
+     background: #2185E3;
 }
 #footer-main h3 {
     padding: 5px 0px 15px 0px;
@@ -66,17 +67,17 @@
     justify-content: center;
 }
 .footer-logo img {
-    height: 80px;
-    width: 80px;
-    border: 1px solid blueviolet;
-    border-radius: 50%;
+    height: 55px;
+    width: 139px;
+    /* border: 1px solid blueviolet;
+    border-radius: 50%; */
 }
 
 
 
 
 #address {
-    background-color: cadetblue;
+    background-color: #ffc108;
     text-align: center;
     height: 35px;
     display: flex;
@@ -90,7 +91,7 @@
     height: 40px;
     display: flex;
     justify-content: center;
-    background: rgb(183, 116, 216);
+    background: #ffc108;
 }
 #copyright > .copyright-box {
     display: flex;

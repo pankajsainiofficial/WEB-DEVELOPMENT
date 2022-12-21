@@ -35,6 +35,24 @@
     color: dimgray;
     text-shadow: 1px 1px black;
 }
+.filter-heading section{
+    display: flex;
+    align-items: center;
+}
+#Searchbutton {
+    padding: 10px;
+    border: 1px solid rgb(87, 81, 81)(85, 67, 67)(85, 67, 67);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    background: #ffc55c;
+}
+#Searchbutton:hover{
+    color: #FFFDD0;
+    background-color: #f29202;
+    text-shadow: 0.5px 0.5px black;
+    box-shadow: 2px 3px 3px 1px rgb(172, 170, 69);
+}
 .filter-head{
     font-size: 32px;
     font-family: system-ui;
@@ -109,9 +127,15 @@
 .mob-detail{
     margin-top: 12px;
 }
+.mobphoto span{
+    display: block;
+    text-align: center;
+    width: 50%;
+}
 .mobphoto img{
     height: 190px;
-    width: 55%;
+    width: 100%;
+    /* width: 55%; */
 }
 .mobphoto{
     border-right: 3px solid white;
@@ -213,6 +237,7 @@
     display: flex;
     align-items: center;
     font-size: 21px;
+    color: white;
 }
 .sortby section{
     float: right;
@@ -228,7 +253,9 @@
     align-items: center;
     font-size: 20px;
 }
-.btn-grad {background-image: linear-gradient(to right, #43C6AC 0%, #191654  51%, #43C6AC  100%)}
+.btn-grad {
+    background: #ffc108;
+}
 .btn-grad {
    margin: 6px;
    padding: 7px 10px;
@@ -236,7 +263,7 @@
    text-transform: uppercase;
    transition: 0.5s;
    background-size: 200% auto;
-   color: white;            
+   color: black;            
    border-radius: 7px;
    display: block;
  }
@@ -246,7 +273,38 @@
    text-decoration: none;
  }
 
-
-
+/* --------------------------Pagination-Buttons----------------------- */
+.bottom-buttons {
+    height: 70px;
+    position: relative;
+    margin: 15px 0px 5px 20px;
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary {
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+    padding: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(46, 40, 29);
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+.btn-previous, .btn-next{
+    border: 1px solid red;
+    width: 70px;
+    height: 10px;
+    padding: 20px;
+}
 
 

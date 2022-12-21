@@ -30,6 +30,7 @@
 }
 .product-image img{
     width: 100%;
+    object-fit: contain;
     height: 100%;
     /* border: 2px solid red; */
 }
@@ -50,12 +51,14 @@
 .small-image-col img{
     height: 70%;
     width: 65%;
+    object-fit: contain;
     border: 1px solid #333333;
     padding: 10px;
 }
 .product-image{
     height: 350px;
-    width: 210px;
+    text-align: center;
+    /* width: 300px; */
     margin: 0px auto;
 }
 

@@ -3,7 +3,7 @@ class Dbcontroller{
     protected $servername = "localhost";
     protected $username = "root";
     protected $password = "";
-    protected $database = "pricepare";
+    protected $database = "ekmulya";
 
     // creating connection
 

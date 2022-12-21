@@ -130,7 +130,7 @@
                 <div class="activitychart">
                     <h2>Activity</h2>
                     <div class="signboard">
-                        <div class="sign">2021</div>
+                        <div class="sign">2022</div>
                         <div class="strings"></div>
                         <div class="pin top"></div>
                         <div class="pin left"></div>

@@ -1,12 +1,12 @@
 <?php
     include "function.php";
     $item_id = $_GET['item_id']??1;
-    foreach($product->ProgetData() as $item):
-        if($item['mb_srno'] == $item_id):
+    foreach($product->ProgetdetailsData() as $item):
+        if($item['srno'] == $item_id):
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
